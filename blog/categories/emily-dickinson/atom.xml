@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[You'll know Her - by Her Blog -]]></title>
-  <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: emily dickinson | You'll know Her - by Her Blog -]]></title>
+  <link href="http://NatalieBlack.github.io/blog/categories/emily-dickinson/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
   <updated>2014-02-20T00:28:41-05:00</updated>
   <id>http://NatalieBlack.github.io/</id>
@@ -24,15 +24,6 @@
 Between the light &ndash; and me -<br/>
 And then the Windows failed &ndash; and then<br/>
 I could not see to see &ndash;  &rdquo; (13-16)</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2014/02/18/hello/"/>
-    <updated>2014-02-18T17:02:19-05:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2014/02/18/hello</id>
-    <content type="html"><![CDATA[<p>This is a blog post!</p>
 ]]></content>
   </entry>
   

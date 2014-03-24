@@ -4,7 +4,7 @@
   <title><![CDATA[You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2014-03-08T21:10:01-05:00</updated>
+  <updated>2014-03-24T00:32:32-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[An Attempt at Science]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/03/16/an-attempt-at-science/"/>
+    <updated>2014-03-16T17:21:08-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/03/16/an-attempt-at-science</id>
+    <content type="html"><![CDATA[<p>Yesterday I spent the afternoon messing around with some open data sets using iPython notebook and pandas.</p>
+
+<!--more-->
+
+
+<p>The first data set came from the city of Toronto&rsquo;s open data <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9e56e03bb8d1e310VgnVCM10000071d60f89RCRD">portal</a>, and contained records of all the official heat warnings released by the city since 2001.  The second data set contained atmospheric pressure readings from smart phones throughout the city of Toronto.  I got this data through the developer API for <a href="http://pressurenet.io/">pressureNET</a>, a Toronto-based startup run by my friend <a href="http://jacobsheehy.com/">Jacob</a> and <a href="http://philippejones.com/">some</a> <a href="http://jaredkerim.com/">other</a> cool guys.  Knowing that atmospheric pressure and temperature are somehow related, I formed the hypothesis that there would be a correlation between the pressure readings and the occurrence of heat warnings.</p>
+
+<p>This <a href="http://nbviewer.ipython.org/gist/anonymous/137e0bd2a813decb1bfc">iPython notebook</a> shows how I went about testing my hypothesis.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A List of Github Repositories that Share Titles with Songs by Tegan and Sara]]></title>
@@ -169,7 +185,7 @@
 
 <p><a href="https://github.com/peter-ivanov87/celebration">celebration</a> by peter-ivanov87</p>
 
-<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#x6f;&#58;&#110;&#x61;&#x74;&#97;&#x6c;&#105;&#101;&#x76;&#105;&#x63;&#116;&#111;&#x72;&#105;&#97;&#x62;&#108;&#97;&#x63;&#x6b;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;&#x2e;">&#110;&#x61;&#116;&#97;&#108;&#105;&#101;&#x76;&#105;&#x63;&#x74;&#x6f;&#114;&#105;&#x61;&#x62;&#108;&#97;&#99;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;&#46;</a></sub></p>
+<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#110;&#97;&#x74;&#x61;&#108;&#x69;&#x65;&#118;&#x69;&#x63;&#116;&#111;&#114;&#x69;&#97;&#x62;&#x6c;&#97;&#x63;&#x6b;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;&#x2e;">&#110;&#97;&#116;&#x61;&#x6c;&#x69;&#101;&#x76;&#x69;&#99;&#x74;&#x6f;&#114;&#x69;&#x61;&#x62;&#108;&#97;&#99;&#x6b;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;&#46;</a></sub></p>
 ]]></content>
   </entry>
   

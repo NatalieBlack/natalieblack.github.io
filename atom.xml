@@ -4,7 +4,7 @@
   <title><![CDATA[You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2014-04-27T23:31:11-04:00</updated>
+  <updated>2014-04-27T23:38:23-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -67,7 +67,12 @@ $(document).ready(function() {
 </script>
 
 
-<p>I have wanted to do something with <a href="http://www.processing.org/">Processing</a> ever since I learned of its existence.  From the Processing website:</p>
+<p>I have wanted to do something with <a href="http://www.processing.org/">Processing</a> ever since I learned of its existence.</p>
+
+<!--more-->
+
+
+<p>From the Processing website:</p>
 
 <blockquote><p>Initially created to serve as a software sketchbook and to teach computer programming fundamentals within a visual context</p></blockquote>
 
@@ -291,7 +296,7 @@ $(document).ready(function() {
 
 <p><a href="https://github.com/peter-ivanov87/celebration">celebration</a> by peter-ivanov87</p>
 
-<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#x6e;&#x61;&#x74;&#97;&#x6c;&#x69;&#x65;&#118;&#105;&#x63;&#116;&#111;&#114;&#x69;&#97;&#98;&#108;&#x61;&#x63;&#x6b;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;&#x2e;">&#110;&#97;&#x74;&#97;&#108;&#105;&#x65;&#118;&#x69;&#99;&#116;&#x6f;&#114;&#x69;&#x61;&#98;&#108;&#97;&#x63;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;&#x2e;</a></sub></p>
+<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#110;&#x61;&#116;&#97;&#108;&#105;&#x65;&#118;&#x69;&#99;&#x74;&#111;&#114;&#x69;&#x61;&#x62;&#108;&#x61;&#99;&#107;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;&#x2e;">&#110;&#x61;&#x74;&#x61;&#108;&#x69;&#101;&#118;&#105;&#x63;&#x74;&#x6f;&#x72;&#x69;&#97;&#98;&#x6c;&#x61;&#99;&#x6b;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;&#x2e;</a></sub></p>
 ]]></content>
   </entry>
   

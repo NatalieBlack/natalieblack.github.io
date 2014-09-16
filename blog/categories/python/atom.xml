@@ -4,7 +4,7 @@
   <title><![CDATA[Category: python, | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2014-08-09T17:05:11-04:00</updated>
+  <updated>2014-09-16T14:32:37-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -445,7 +445,7 @@ ftimestamp = ftime.timestamp * 1000</p>
 
 <p>At first I was too distracted by how the comment at the top of this file sounds like it&rsquo;s been through Google translate too many times to notice that it renamed me &ldquo;Natalie bleak&rdquo;!  That&rsquo;s definitely what I&rsquo;ll go by should I ever join a doom metal band.</p>
 
-<p>This rewording &ndash; with its &ldquo;work&rdquo;, &ldquo;turn over&rdquo;, &ldquo;supply&rdquo;, &ldquo;volt-ampere&rdquo;, &ldquo;joule&rdquo;, and &ldquo;mathematics.shock&rdquo; (my personal favourite) &ndash; sounds like it was composed by a soulless capitalist robot.  A big, lumbering capitalize robot with a soft spot for tacos, as indicated by line 35 (to be fair, &ldquo;tacos&rdquo; was left over from a debugging line in the original script).
+<p>This rewording &ndash; with its &ldquo;work&rdquo;, &ldquo;turn over&rdquo;, &ldquo;supply&rdquo;, &ldquo;volt-ampere&rdquo;, &ldquo;joule&rdquo;, and &ldquo;mathematics.shock&rdquo; (my personal favourite) &ndash; sounds like it was composed by a soulless capitalist robot.  A big, lumbering capitalist robot with a soft spot for tacos, as indicated by line 35 (to be fair, &ldquo;tacos&rdquo; was left over from a debugging line in the original script).
 ```javascript
 /<em>*
  * manipulate cube turn over

@@ -1,8 +1,0 @@
----
-layout: post
-title: "Hello"
-date: 2014-02-18 17:02:19 -0500
-comments: true
-categories: 
----
-This is a blog post!

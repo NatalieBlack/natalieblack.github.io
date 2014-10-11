@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: pandas, | You'll know Her - by Her Blog -]]></title>
+  <link href="http://NatalieBlack.github.io/blog/categories/pandas/atom.xml" rel="self"/>
+  <link href="http://NatalieBlack.github.io/"/>
+  <updated>2014-10-04T16:58:16-04:00</updated>
+  <id>http://NatalieBlack.github.io/</id>
+  <author>
+    <name><![CDATA[Natalie Black]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[An Attempt at Science]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/03/23/an-attempt-at-science/"/>
+    <updated>2014-03-23T17:21:08-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/03/23/an-attempt-at-science</id>
+    <content type="html"><![CDATA[<p>Last Saturday I spent the afternoon messing around with some open data sets using IPython notebook and pandas.</p>
+
+<!--more-->
+
+
+<p>The first data set came from the city of Toronto&rsquo;s open data <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9e56e03bb8d1e310VgnVCM10000071d60f89RCRD">portal</a>, and contained records of all the official heat warnings released by the city since 2001.  The second data set contained atmospheric pressure readings from smart phones throughout the city of Toronto.  I got this data through the developer API for <a href="http://pressurenet.io/">pressureNET</a>, a Toronto-based startup run by my friend <a href="http://jacobsheehy.com/">Jacob</a> and <a href="http://philippejones.com/">some</a> <a href="http://jaredkerim.com/">other</a> cool guys.  Knowing that atmospheric pressure and temperature are somehow related, I formed the hypothesis that there would be a correlation between the pressure readings and the occurrence of heat warnings.</p>
+
+<p>This <a href="http://nbviewer.ipython.org/gist/anonymous/137e0bd2a813decb1bfc">IPython notebook</a> shows how I went about testing my hypothesis.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://NatalieBlack.github.io/sitemap.xml 

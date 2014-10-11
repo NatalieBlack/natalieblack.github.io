@@ -1,0 +1,1932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[You'll know Her - by Her Blog -]]></title>
+  <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
+  <link href="http://NatalieBlack.github.io/"/>
+  <updated>2014-10-04T16:58:16-04:00</updated>
+  <id>http://NatalieBlack.github.io/</id>
+  <author>
+    <name><![CDATA[Natalie Black]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Coding Freedom and the Cruel Contradiction of Creative Collaboration]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/08/09/cruel-contradiction/"/>
+    <updated>2014-08-09T15:37:48-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/08/09/cruel-contradiction</id>
+    <content type="html"><![CDATA[<p>About a month ago I finished reading the highly intelligent <i>Coding Freedom</i> by E. Gabriella Coleman.</p>
+
+<!--more-->
+
+
+<p>Although much of historical content might be a review for readers who are already familiar with the free and open software movements, the book is full of refreshing insights, the variety that is best provided by subcultural outsiders.  I always appreciate things that put programming into context with other creative and social pursuits.</p>
+
+<p>Here is one of my favourite passages:</p>
+
+<blockquote><p>Over time, this [version control] record accumulates into a richly documented palimpsest.  Though individual attribution is certainly accorded, these technological palimpsests reflect unmistakably that complicated pieces of software are held in place by a grand collaborative effort that far exceeds any one person&rsquo;s contribution.
+In contrast to many accounts on authorship, I find that a short description about the aesthetics of jazz and its &ldquo;cruel contradiction&rdquo; is eerily evocative of the hacker creative predicament:</p>
+
+<blockquote><p>There is a cruel contradiction implicit in the art form itself.  For true jazz is an art of individual assertion within and against the group.  Each true jazz moment (as distinct from the uninspired commercial performance) springs from a context in which each artist challenges all the rest, each solo flight, or improvisation, represents (like the successive canvases of a painter) a definition of his identity: as individual, as member of the collectivity, and as link in the chain of tradition.  Thus, because jazz finds its very life in an endless improvisation upon traditional materials, the jazzman must lose his identity even as he finds it.  (Ellison 1964, 234; quoted in Gilroy 1993, 79)
+Among hackers this cruelty, this difficulty in establishing discrete originality, is in reality not so cruel.  It is treated like any interesting problem: an enticing hurdle that invites rigorous intellectual intervention and a well-crafted solution within given constraints.  Hackers clearly define the meaning of the free individual through this very persistent inclination to find solutions; they revel in directing their faculty for critical thought toward creating better technology or more sublime, beautiful code.  The logic among hackers goes that if one can create beauty, originality, or solve a problem within the shackles of constraints, this must prove a <em>superior</em> form of creativity, intelligence, and individuality than the mere expression of some wholly original work.
+Not every piece of technology made by hackers qualifies as a hack.  The hack is particularly the &ldquo;individual assertion within and against the group&rdquo; (Ellison 1964, 234), which may be easily attached to an individual even though it is still indebted to a wider tradition and conversation.  Hackers certainly engage in a creative, complex process partially separated from hierarchy, enfolding a mechanics of dissection, manipulation, and reassembly, in which various forms of collaboration are held in high esteem.  Much of their labor is oriented toward finding a good enough solution so they can carry forth with their work.  But their form of production is one that also generates a practice of cordial (and sometimes not-so-cordial) one-upping, which simultaneously acknowledges the hacker&rsquo;s technical roots and yet at times strives to go beyond inherited forms in order to implement a better solution.  If this solution is achieved, it will favorably reveal one&rsquo;s capacity for original, critical thought &ndash; the core meaning of individuality among hackers.</p></blockquote></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paraphrased Code Poetry]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/05/18/paraphrased-code-poetry/"/>
+    <updated>2014-05-18T15:50:41-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/05/18/paraphrased-code-poetry</id>
+    <content type="html"><![CDATA[<script>
+$(document).ready(function() {
+    function setup(tag){
+      $(tag).hide();
+      $(tag + "_link").click(function() {
+        $(tag).toggle();
+      });
+    }
+    setup("#original_ruby");
+    setup("#original_python");
+    setup("#original_javascript");
+    setup("#original_requests");
+});
+</script>
+
+
+<p>I thought it would be funny to go through source code and replace all the keywords with synonyms (eg. try &ndash;> attempt, catch &ndash;> seize).  The results didn&rsquo;t end up being that funny.  But when I tried replacing <em>all</em> the words in various pieces of code with auto-generated synonyms the results were fairly magical.</p>
+
+<!--more-->
+
+
+<p><a href="https://github.com/NatalieBlack/synonym_code/blob/master/replace.py">This</a> is the script I used to make these transformations.</p>
+
+<h2>Ruby</h2>
+
+<p><a href="#" id="original_ruby_link">show original code</a></p>
+
+<div id="original_ruby">
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;csv&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">names</span> <span class="o">=</span> <span class="o">[]</span>
+</span><span class='line'><span class="n">fout</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;/home/natalie/Desktop/names.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">CSV</span><span class="o">.</span><span class="n">foreach</span><span class="p">(</span><span class="s1">&#39;/home/natalie/Desktop/cast.csv&#39;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">row</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">row</span><span class="o">.</span><span class="n">pop</span>
+</span><span class='line'>  <span class="n">row</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="nb">name</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">names</span> <span class="o">&lt;&lt;</span> <span class="nb">name</span><span class="o">.</span><span class="n">downcase</span> <span class="k">unless</span> <span class="nb">name</span><span class="o">.</span><span class="n">nil?</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">fin</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;/home/natalie/Desktop/NaNoWriMo.txt&#39;</span><span class="p">)</span>
+</span><span class='line'><span class="no">File</span><span class="o">.</span><span class="n">foreach</span><span class="p">(</span><span class="n">fin</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">line</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">word</span><span class="o">|</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">names</span><span class="o">.</span><span class="n">include?</span> <span class="n">word</span><span class="o">.</span><span class="n">downcase</span>
+</span><span class='line'>      <span class="n">fout</span><span class="o">.</span><span class="n">write</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">word</span><span class="si">}</span><span class="s2"> &quot;</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">fout</span><span class="o">.</span><span class="n">write</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">fout</span><span class="o">.</span><span class="n">close</span>
+</span><span class='line'><span class="n">fin</span><span class="o">.</span><span class="n">close</span>
+</span></code></pre></td></tr></table></div></figure>
+</div>
+
+
+<h3>Paraphrased Code</h3>
+
+<p>The somewhat nautical themed result from rewording this first script is probably my favourite of the whole experiment.  I&rsquo;m particularly fond of &ldquo;boat.popular&rdquo; (so whimsy!), &ldquo;register.foreach(break water) make |run along|&rdquo; (so sassy!), and &ldquo;run along.disconnected.each make |give voice|&rdquo; (so poignant?).</p>
+
+<p>I want to question some of these synonyms, like &ldquo;call calling&rdquo; being used to replace every instance of &ldquo;names&rdquo;, but I also don&rsquo;t want to question it because it&rsquo;s so great.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;csv&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">call</span> <span class="n">calling</span> <span class="o">=</span> <span class="o">[]</span>
+</span><span class='line'><span class="n">fout</span> <span class="o">=</span> <span class="n">register</span><span class="o">.</span><span class="n">unfastened</span><span class="p">(</span><span class="s1">&#39;/home/natalie/Desktop/call calling.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">CSV</span><span class="o">.</span><span class="n">foreach</span><span class="p">(</span><span class="s1">&#39;/home/natalie/Desktop/cast.csv&#39;</span><span class="p">)</span> <span class="n">make</span> <span class="o">|</span><span class="n">boat</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">boat</span><span class="o">.</span><span class="n">popular</span>
+</span><span class='line'>  <span class="n">boat</span><span class="o">.</span><span class="n">each</span> <span class="n">make</span> <span class="o">|</span><span class="n">call</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">call</span> <span class="n">calling</span> <span class="o">&lt;&lt;</span> <span class="n">call</span><span class="o">.</span><span class="n">downcase</span> <span class="k">unless</span> <span class="n">call</span><span class="o">.</span><span class="n">nothing?</span>
+</span><span class='line'>  <span class="n">stop</span>
+</span><span class='line'><span class="n">stop</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">break</span> <span class="n">water</span> <span class="o">=</span> <span class="n">register</span><span class="o">.</span><span class="n">unfastened</span><span class="p">(</span><span class="s1">&#39;/home/natalie/Desktop/NaNoWriMo.txt&#39;</span><span class="p">)</span>
+</span><span class='line'><span class="n">register</span><span class="o">.</span><span class="n">foreach</span><span class="p">(</span><span class="k">break</span> <span class="n">water</span><span class="p">)</span> <span class="n">make</span> <span class="o">|</span><span class="n">run</span> <span class="n">along</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">run</span> <span class="n">along</span><span class="o">.</span><span class="n">disconnected</span><span class="o">.</span><span class="n">each</span> <span class="n">make</span> <span class="o">|</span><span class="n">give</span> <span class="n">voice</span><span class="o">|</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">call</span> <span class="n">calling</span><span class="o">.</span><span class="n">admit?</span> <span class="n">give</span> <span class="n">voice</span><span class="o">.</span><span class="n">downcase</span>
+</span><span class='line'>      <span class="n">fout</span><span class="o">.</span><span class="n">compose</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">give</span> <span class="n">voice</span><span class="si">}</span><span class="s2"> &quot;</span>
+</span><span class='line'>    <span class="n">stop</span>
+</span><span class='line'>  <span class="n">stop</span>
+</span><span class='line'>  <span class="n">fout</span><span class="o">.</span><span class="n">compose</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="n">stop</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">fout</span><span class="o">.</span><span class="n">near</span>
+</span><span class='line'><span class="k">break</span> <span class="n">water</span><span class="o">.</span><span class="n">near</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Python</h2>
+
+<p><a href="#" id="original_python_link">show original code</a></p>
+
+<div id="original_python">
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c">#!/usr/bin/env python</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">import</span> <span class="nn">os</span>
+</span><span class='line'><span class="kn">import</span> <span class="nn">requests</span>
+</span><span class='line'><span class="kn">import</span> <span class="nn">json</span>
+</span><span class='line'><span class="kn">import</span> <span class="nn">arrow</span><span class="o">,</span> <span class="nn">datetime</span><span class="o">,</span> <span class="nn">time</span>
+</span><span class='line'><span class="kn">from</span> <span class="nn">tzlocal</span> <span class="kn">import</span> <span class="n">get_localzone</span>
+</span><span class='line'><span class="kn">from</span> <span class="nn">config</span> <span class="kn">import</span> <span class="n">apikey</span><span class="p">,</span> <span class="n">startsecond</span><span class="p">,</span> <span class="n">startminute</span><span class="p">,</span> <span class="n">starthour</span><span class="p">,</span> <span class="n">startday</span><span class="p">,</span> <span class="n">startmonth</span><span class="p">,</span> <span class="n">startyear</span><span class="p">,</span> <span class="n">endsecond</span><span class="p">,</span> <span class="n">endminute</span><span class="p">,</span> <span class="n">endhour</span><span class="p">,</span> <span class="n">endday</span><span class="p">,</span> <span class="n">endmonth</span><span class="p">,</span> <span class="n">endyear</span><span class="p">,</span> <span class="n">minlat</span><span class="p">,</span> <span class="n">maxlat</span><span class="p">,</span> <span class="n">minlon</span><span class="p">,</span> <span class="n">maxlon</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">make_call</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+</span><span class='line'>    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;api_key&#39;</span><span class="p">:</span> <span class="n">apikey</span><span class="p">,</span> <span class="s">&#39;start_time&#39;</span><span class="p">:</span> <span class="n">s</span><span class="p">,</span> <span class="s">&#39;end_time&#39;</span><span class="p">:</span> <span class="n">f</span><span class="p">,</span>
+</span><span class='line'>               <span class="s">&#39;min_lat&#39;</span><span class="p">:</span> <span class="n">minlat</span><span class="p">,</span> <span class="s">&#39;max_lat&#39;</span><span class="p">:</span> <span class="n">maxlat</span><span class="p">,</span>
+</span><span class='line'>               <span class="s">&#39;min_lon&#39;</span><span class="p">:</span> <span class="n">minlon</span><span class="p">,</span> <span class="s">&#39;max_lon&#39;</span><span class="p">:</span> <span class="n">maxlon</span>
+</span><span class='line'>              <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;https://pressurenet.io/live&#39;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">print</span> <span class="s">&quot;Request made to &quot;</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">url</span>
+</span><span class='line'>    <span class="k">print</span> <span class="n">arrow</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="o">/</span><span class="mi">1000</span><span class="p">))</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot; to &quot;</span> <span class="o">+</span> <span class="n">arrow</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">f</span><span class="o">/</span><span class="mi">1000</span><span class="p">))</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">print</span> <span class="s">&quot;Status: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+</span><span class='line'>        <span class="k">print</span> <span class="s">&quot;{} items downloaded&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()))</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span><span class='line'>            <span class="n">data</span> <span class="o">+=</span> <span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">stime</span> <span class="o">=</span> <span class="n">arrow</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="n">startyear</span><span class="p">,</span> <span class="n">startmonth</span><span class="p">,</span> <span class="n">startday</span><span class="p">,</span> <span class="n">starthour</span><span class="p">,</span> <span class="n">startminute</span><span class="p">,</span> <span class="n">startsecond</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">get_localzone</span><span class="p">()))</span>
+</span><span class='line'><span class="n">origstart</span> <span class="o">=</span> <span class="n">stime</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">ftime</span> <span class="o">=</span> <span class="n">arrow</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="n">endyear</span><span class="p">,</span> <span class="n">endmonth</span><span class="p">,</span> <span class="n">endday</span><span class="p">,</span> <span class="n">endhour</span><span class="p">,</span> <span class="n">endminute</span><span class="p">,</span> <span class="n">endsecond</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">get_localzone</span><span class="p">()))</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">ftimestamp</span> <span class="o">=</span> <span class="n">ftime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">#don&#39;t ask for more than 1 day&#39;s data at a time</span>
+</span><span class='line'><span class="k">while</span> <span class="p">(</span><span class="n">ftime</span> <span class="o">-</span> <span class="n">stime</span><span class="p">)</span><span class="o">.</span><span class="n">days</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>    <span class="n">stimestamp</span> <span class="o">=</span> <span class="n">stime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>    <span class="n">ftimestamp</span> <span class="o">=</span> <span class="n">stime</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">days</span><span class="o">=+</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">make_call</span><span class="p">(</span><span class="n">stimestamp</span><span class="p">,</span> <span class="n">ftimestamp</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">stime</span> <span class="o">=</span> <span class="n">arrow</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">ftimestamp</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">seconds</span><span class="o">=+</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">stimestamp</span> <span class="o">=</span> <span class="n">stime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'><span class="n">ftimestamp</span> <span class="o">=</span> <span class="n">ftime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">make_call</span><span class="p">(</span><span class="n">stimestamp</span><span class="p">,</span> <span class="n">ftimestamp</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">fn</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s">&#39;data&#39;</span><span class="p">,</span> <span class="s">&#39;{startdate}_{enddate}_{minlat}-{maxlat}_{minlon}-{maxlon}.json&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+</span><span class='line'>        <span class="n">startdate</span> <span class="o">=</span> <span class="n">origstart</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">),</span>
+</span><span class='line'>         <span class="n">enddate</span> <span class="o">=</span> <span class="n">ftime</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">),</span>
+</span><span class='line'>         <span class="n">minlat</span> <span class="o">=</span> <span class="n">minlat</span><span class="p">,</span> <span class="n">maxlat</span> <span class="o">=</span> <span class="n">maxlat</span><span class="p">,</span>
+</span><span class='line'>         <span class="n">minlon</span> <span class="o">=</span> <span class="n">minlon</span><span class="p">,</span> <span class="n">maxlon</span> <span class="o">=</span> <span class="n">maxlon</span>
+</span><span class='line'>        <span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">print</span> <span class="s">&quot;Data saved to &quot;</span> <span class="o">+</span> <span class="n">fn</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fn</span><span class="p">,</span> <span class="s">&#39;w+&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+</span><span class='line'>      <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outfile</span><span class="p">)</span>
+</span><span class='line'>      <span class="n">outfile</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</span></code></pre></td></tr></table></div></figure>
+</div>
+
+
+<h3>Paraphrased Code</h3>
+
+<p>The first two lines of this reworded script are a highlight for me: &ldquo;import os&rdquo; and &ldquo;import requests&rdquo; becomes &ldquo;spell osmium&rdquo; and &ldquo;spell bespeak&rdquo;.  My expectations are already exceeded.  I&rsquo;m also fond of how the variable &ldquo;f&rdquo; becomes &ldquo;degree Fahrenheit&rdquo; and &ldquo;sleep&rdquo; becomes &ldquo;kip&rdquo;!  Delightful.  Lastly I have to point out the third last line: &ldquo;with unfastened(fn, &lsquo;w+&rsquo;) arsenic outfile:&rdquo;.  Sounds dangerous &ndash; let&rsquo;s do it!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c">#!/usr/bin/env python</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">spell</span> <span class="n">osmium</span>
+</span><span class='line'><span class="n">spell</span> <span class="n">bespeak</span>
+</span><span class='line'><span class="n">spell</span> <span class="n">json</span>
+</span><span class='line'><span class="n">spell</span> <span class="n">pointer</span><span class="p">,</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">clock</span>
+</span><span class='line'><span class="kn">from</span> <span class="nn">tzlocal</span> <span class="nn">spell</span> <span class="nn">get_localzone</span>
+</span><span class='line'><span class="kn">from</span> <span class="nn">config</span> <span class="nn">spell</span> <span class="nn">apikey</span><span class="p">,</span> <span class="n">startsecond</span><span class="p">,</span> <span class="n">startminute</span><span class="p">,</span> <span class="n">starthour</span><span class="p">,</span> <span class="n">startday</span><span class="p">,</span> <span class="n">startmonth</span><span class="p">,</span> <span class="n">startyear</span><span class="p">,</span> <span class="n">endsecond</span><span class="p">,</span> <span class="n">endminute</span><span class="p">,</span> <span class="n">endhour</span><span class="p">,</span> <span class="n">endday</span><span class="p">,</span> <span class="n">endmonth</span><span class="p">,</span> <span class="n">endyear</span><span class="p">,</span> <span class="n">minlat</span><span class="p">,</span> <span class="n">maxlat</span><span class="p">,</span> <span class="n">minlon</span><span class="p">,</span> <span class="n">maxlon</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">make_call</span><span class="p">(</span><span class="n">second</span><span class="p">,</span> <span class="n">degree</span> <span class="n">Fahrenheit</span><span class="p">,</span> <span class="n">information</span><span class="p">):</span>
+</span><span class='line'>    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;api_key&#39;</span><span class="p">:</span> <span class="n">apikey</span><span class="p">,</span> <span class="s">&#39;start_time&#39;</span><span class="p">:</span> <span class="n">second</span><span class="p">,</span> <span class="s">&#39;end_time&#39;</span><span class="p">:</span> <span class="n">degree</span> <span class="n">Fahrenheit</span><span class="p">,</span>
+</span><span class='line'>               <span class="s">&#39;min_lat&#39;</span><span class="p">:</span> <span class="n">minlat</span><span class="p">,</span> <span class="s">&#39;max_lat&#39;</span><span class="p">:</span> <span class="n">maxlat</span><span class="p">,</span>
+</span><span class='line'>               <span class="s">&#39;min_lon&#39;</span><span class="p">:</span> <span class="n">minlon</span><span class="p">,</span> <span class="s">&#39;max_lon&#39;</span><span class="p">:</span> <span class="n">maxlon</span>
+</span><span class='line'>              <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">roentgen</span> <span class="o">=</span> <span class="n">bespeak</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;https://pressurenet.io/live&#39;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">publish</span> <span class="s">&quot;Request made to &quot;</span> <span class="o">+</span> <span class="n">roentgen</span><span class="o">.</span><span class="n">URL</span>
+</span><span class='line'>    <span class="n">publish</span> <span class="n">pointer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">second</span><span class="o">/</span><span class="mi">1000</span><span class="p">))</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot; to &quot;</span> <span class="o">+</span> <span class="n">pointer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">degree</span> <span class="n">Fahrenheit</span><span class="o">/</span><span class="mi">1000</span><span class="p">))</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">publish</span> <span class="s">&quot;Status: {}&quot;</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="n">roentgen</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">roentgen</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">publish</span> <span class="s">&quot;{} items downloaded&quot;</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">roentgen</span><span class="o">.</span><span class="n">json</span><span class="p">()))</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">roentgen</span><span class="o">.</span><span class="n">json</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span><span class='line'>            <span class="n">information</span> <span class="o">+=</span> <span class="n">roentgen</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">stime</span> <span class="o">=</span> <span class="n">pointer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="n">startyear</span><span class="p">,</span> <span class="n">startmonth</span><span class="p">,</span> <span class="n">startday</span><span class="p">,</span> <span class="n">starthour</span><span class="p">,</span> <span class="n">startminute</span><span class="p">,</span> <span class="n">startsecond</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">get_localzone</span><span class="p">()))</span>
+</span><span class='line'><span class="n">origstart</span> <span class="o">=</span> <span class="n">stime</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">ftime</span> <span class="o">=</span> <span class="n">pointer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="n">endyear</span><span class="p">,</span> <span class="n">endmonth</span><span class="p">,</span> <span class="n">endday</span><span class="p">,</span> <span class="n">endhour</span><span class="p">,</span> <span class="n">endminute</span><span class="p">,</span> <span class="n">endsecond</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">get_localzone</span><span class="p">()))</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">information</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">ftimestamp</span> <span class="o">=</span> <span class="n">ftime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">#don&#39;t ask for more than 1 day&#39;second information at a clock</span>
+</span><span class='line'><span class="n">piece</span> <span class="p">(</span><span class="n">ftime</span> <span class="o">-</span> <span class="n">stime</span><span class="p">)</span><span class="o">.</span><span class="n">years</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>    <span class="n">stimestamp</span> <span class="o">=</span> <span class="n">stime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>    <span class="n">ftimestamp</span> <span class="o">=</span> <span class="n">stime</span><span class="o">.</span><span class="n">supplant</span><span class="p">(</span><span class="n">years</span><span class="o">=+</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">make_call</span><span class="p">(</span><span class="n">stimestamp</span><span class="p">,</span> <span class="n">ftimestamp</span><span class="p">,</span> <span class="n">information</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">stime</span> <span class="o">=</span> <span class="n">pointer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">ftimestamp</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">)</span><span class="o">.</span><span class="n">supplant</span><span class="p">(</span><span class="mi">2</span><span class="n">nd</span><span class="o">=+</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">clock</span><span class="o">.</span><span class="n">kip</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">stimestamp</span> <span class="o">=</span> <span class="n">stime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'><span class="n">ftimestamp</span> <span class="o">=</span> <span class="n">ftime</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">make_call</span><span class="p">(</span><span class="n">stimestamp</span><span class="p">,</span> <span class="n">ftimestamp</span><span class="p">,</span> <span class="n">information</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">fn</span> <span class="o">=</span> <span class="n">osmium</span><span class="o">.</span><span class="n">way</span><span class="o">.</span><span class="n">fall</span> <span class="ow">in</span><span class="p">(</span><span class="s">&#39;information&#39;</span><span class="p">,</span> <span class="s">&#39;{startdate}_{enddate}_{minlat}-{maxlat}_{minlon}-{maxlon}.json&#39;</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span>
+</span><span class='line'>        <span class="n">startdate</span> <span class="o">=</span> <span class="n">origstart</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">),</span>
+</span><span class='line'>         <span class="n">enddate</span> <span class="o">=</span> <span class="n">ftime</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="s">&#39;MMMM-DD-YYYY:HH:mm:ss&#39;</span><span class="p">),</span>
+</span><span class='line'>         <span class="n">minlat</span> <span class="o">=</span> <span class="n">minlat</span><span class="p">,</span> <span class="n">maxlat</span> <span class="o">=</span> <span class="n">maxlat</span><span class="p">,</span>
+</span><span class='line'>         <span class="n">minlon</span> <span class="o">=</span> <span class="n">minlon</span><span class="p">,</span> <span class="n">maxlon</span> <span class="o">=</span> <span class="n">maxlon</span>
+</span><span class='line'>        <span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">publish</span> <span class="s">&quot;Data saved to &quot;</span> <span class="o">+</span> <span class="n">fn</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">with</span> <span class="n">unfastened</span><span class="p">(</span><span class="n">fn</span><span class="p">,</span> <span class="s">&#39;w+&#39;</span><span class="p">)</span> <span class="n">arsenic</span> <span class="n">outfile</span><span class="p">:</span>
+</span><span class='line'>      <span class="n">json</span><span class="o">.</span><span class="n">ditch</span><span class="p">(</span><span class="n">information</span><span class="p">,</span> <span class="n">outfile</span><span class="p">)</span>
+</span><span class='line'>      <span class="n">outfile</span><span class="o">.</span><span class="n">near</span><span class="p">()</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>JavaScript</h2>
+
+<p><a href="#" id="original_javascript_link">show original code</a></p>
+
+<div id="original_javascript">
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+<span class='line-number'>121</span>
+<span class='line-number'>122</span>
+<span class='line-number'>123</span>
+<span class='line-number'>124</span>
+<span class='line-number'>125</span>
+<span class='line-number'>126</span>
+<span class='line-number'>127</span>
+<span class='line-number'>128</span>
+<span class='line-number'>129</span>
+<span class='line-number'>130</span>
+<span class='line-number'>131</span>
+<span class='line-number'>132</span>
+<span class='line-number'>133</span>
+<span class='line-number'>134</span>
+<span class='line-number'>135</span>
+<span class='line-number'>136</span>
+<span class='line-number'>137</span>
+<span class='line-number'>138</span>
+<span class='line-number'>139</span>
+<span class='line-number'>140</span>
+<span class='line-number'>141</span>
+<span class='line-number'>142</span>
+<span class='line-number'>143</span>
+<span class='line-number'>144</span>
+<span class='line-number'>145</span>
+<span class='line-number'>146</span>
+<span class='line-number'>147</span>
+<span class='line-number'>148</span>
+<span class='line-number'>149</span>
+<span class='line-number'>150</span>
+<span class='line-number'>151</span>
+<span class='line-number'>152</span>
+<span class='line-number'>153</span>
+<span class='line-number'>154</span>
+<span class='line-number'>155</span>
+<span class='line-number'>156</span>
+<span class='line-number'>157</span>
+<span class='line-number'>158</span>
+<span class='line-number'>159</span>
+<span class='line-number'>160</span>
+<span class='line-number'>161</span>
+<span class='line-number'>162</span>
+<span class='line-number'>163</span>
+<span class='line-number'>164</span>
+<span class='line-number'>165</span>
+<span class='line-number'>166</span>
+<span class='line-number'>167</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="cm">/**</span>
+</span><span class='line'><span class="cm"> * Fudge Dice Roller</span>
+</span><span class='line'><span class="cm"> *</span>
+</span><span class='line'><span class="cm"> * (c) 2011 Tavish Armstrong and Natalie Black and also Lachlan Fletcher</span>
+</span><span class='line'><span class="cm"> */</span>
+</span><span class='line'><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">random</span><span class="p">,</span> <span class="nx">fudgeDie</span><span class="p">,</span> <span class="nx">fudgeDice</span><span class="p">,</span> <span class="nx">getRollSet</span><span class="p">,</span> <span class="nx">getRoll</span><span class="p">,</span>
+</span><span class='line'>      <span class="nx">renderRoll</span><span class="p">,</span> <span class="nx">renderDie</span><span class="p">,</span> <span class="nx">sum</span><span class="p">,</span> <span class="nx">outputDice</span><span class="p">,</span>
+</span><span class='line'>      <span class="nx">clearCommand</span><span class="p">,</span> <span class="nx">renderBigRoll</span><span class="p">,</span> <span class="nx">diceImages</span><span class="p">,</span> <span class="nx">getDieImage</span><span class="p">,</span>
+</span><span class='line'>      <span class="nx">MultiRoll</span><span class="p">,</span> <span class="nx">Roll</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">diceImages</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="s1">&#39;-1&#39;</span><span class="o">:</span> <span class="s1">&#39;dice_minusone.png&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s1">&#39;0&#39;</span><span class="o">:</span> <span class="s1">&#39;dice_zero.png&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s1">&#39;1&#39;</span><span class="o">:</span> <span class="s1">&#39;dice_one.png&#39;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">random</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">randomMax</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">max</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">randomRange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">max</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">},</span>
+</span><span class='line'>    <span class="nx">randomRange</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">min</span><span class="p">,</span> <span class="nx">max</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="nx">min</span> <span class="o">&lt;</span> <span class="nx">max</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="k">return</span> <span class="nx">min</span> <span class="o">+</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="p">(</span><span class="nx">max</span> <span class="o">-</span> <span class="nx">min</span> <span class="o">+</span> <span class="mi">1</span><span class="p">));</span>
+</span><span class='line'>      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>        <span class="k">throw</span> <span class="s2">&quot;Invalid range&quot;</span><span class="p">;</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="kd">function</span> <span class="nx">Roll</span><span class="p">(</span><span class="nx">dicePerRoll</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">size</span> <span class="o">=</span> <span class="nx">dicePerRoll</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="k">if</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">console</span> <span class="o">!==</span> <span class="s2">&quot;undefined&quot;</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;tacos&quot;</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="kd">function</span> <span class="nx">MultiRoll</span><span class="p">(</span><span class="nx">multiRollSize</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">size</span> <span class="o">=</span> <span class="nx">multiRollSize</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">dicePerRoll</span> <span class="o">=</span> <span class="nx">dicePerRoll</span><span class="p">;</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">that</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">rolls</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="kd">var</span> <span class="nx">j</span><span class="p">,</span> <span class="nx">rollArray</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">rollArray</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>      <span class="k">for</span><span class="p">(</span><span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">j</span> <span class="o">&lt;</span> <span class="nx">that</span><span class="p">.</span><span class="nx">size</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">rollArray</span><span class="p">[</span><span class="nx">j</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Roll</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">dicePerRoll</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>      <span class="k">return</span> <span class="nx">rollArray</span><span class="p">;</span>
+</span><span class='line'>    <span class="p">}());</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="kd">var</span> <span class="nx">i</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">rolls</span><span class="p">);</span>
+</span><span class='line'>      <span class="k">for</span> <span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">size</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">this</span><span class="p">.</span><span class="nx">rolls</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">render</span><span class="p">();</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">sum</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">+=</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">sum</span> <span class="o">+=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">sum</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">fudgeDie</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">random</span><span class="p">.</span><span class="nx">randomRange</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="c1">// roll n dice</span>
+</span><span class='line'>  <span class="nx">fudgeDice</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">rolls</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">rolls</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">n</span><span class="p">;</span> <span class="nx">i</span><span class="o">+=</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">rolls</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">fudgeDie</span><span class="p">());</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">rolls</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">getRoll</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">numDice</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">dice</span><span class="p">,</span> <span class="nx">theSum</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">dice</span> <span class="o">=</span> <span class="nx">fudgeDice</span><span class="p">(</span><span class="nx">numDice</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">theSum</span> <span class="o">=</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">dice</span><span class="p">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">dice</span><span class="o">:</span> <span class="nx">dice</span>
+</span><span class='line'>      <span class="p">,</span> <span class="nx">sum</span><span class="o">:</span> <span class="nx">theSum</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">getRollSet</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">numRolls</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">rolls</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">numRolls</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">rolls</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">getRoll</span><span class="p">(</span><span class="nx">dicePerRoll</span><span class="p">));</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">rolls</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">getDieImage</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">dieValue</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">diceImages</span><span class="p">[(</span><span class="k">new</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">dieValue</span><span class="p">)).</span><span class="nx">toString</span><span class="p">()];</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">renderDie</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">span</span><span class="p">,</span> <span class="nx">img</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">span</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;&lt;span class=&quot;die&quot;&gt;&lt;/span&gt;&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">img</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;&lt;img/&gt;&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;src&quot;</span><span class="p">,</span> <span class="nx">getDieImage</span><span class="p">(</span><span class="nx">d</span><span class="p">));</span>
+</span><span class='line'>    <span class="nx">img</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">,</span> <span class="nx">d</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">img</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;alt&quot;</span><span class="p">,</span> <span class="nx">d</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">img</span><span class="p">.</span><span class="nx">addClass</span><span class="p">(</span><span class="s2">&quot;die&quot;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">span</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">span</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">outputDice</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">r</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">diceOut</span> <span class="o">=</span> <span class="p">[],</span> <span class="nx">out</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">r</span><span class="p">.</span><span class="nx">dice</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">diceOut</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">renderDie</span><span class="p">(</span><span class="nx">r</span><span class="p">.</span><span class="nx">dice</span><span class="p">[</span><span class="nx">i</span><span class="p">]).</span><span class="nx">html</span><span class="p">();</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="nx">out</span> <span class="o">=</span> <span class="nx">diceOut</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">out</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">renderBigRoll</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">roll</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">template</span><span class="p">,</span> <span class="nx">command</span><span class="p">,</span> <span class="nx">bigRoll</span><span class="p">,</span> <span class="nx">dice</span><span class="p">,</span> <span class="nx">resultSum</span><span class="p">,</span> <span class="nx">resultName</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">command</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#current-command&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">template</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.bigRoll.templateRoll&#39;</span><span class="p">,</span> <span class="nx">command</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">newBigRoll</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">clone</span><span class="p">();</span>
+</span><span class='line'>    <span class="nx">dice</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.dice&#39;</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">resultSum</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.result &gt; .sum&#39;</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">resultName</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.result &gt; .name&#39;</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nx">dice</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">outputDice</span><span class="p">(</span><span class="nx">roll</span><span class="p">));</span>
+</span><span class='line'>    <span class="nx">resultSum</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">roll</span><span class="p">.</span><span class="nx">sum</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>    <span class="nx">newBigRoll</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">&#39;templateRoll&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">command</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">clearCommand</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#current-command .bigRoll:not(.templateRoll)&#39;</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">keypress</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="kd">var</span> <span class="nx">keyNum</span><span class="p">,</span> <span class="nx">numToRoll</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">keyNum</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">which</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="c1">// Assume it&#39;s a number key, figure out what</span>
+</span><span class='line'>      <span class="c1">// number it is.</span>
+</span><span class='line'>      <span class="nx">numToRoll</span> <span class="o">=</span> <span class="nx">keyNum</span> <span class="o">-</span> <span class="mi">48</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="nx">numToRoll</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">numToRoll</span> <span class="o">&lt;=</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;:button[name=&quot;roll&quot;][value=&quot;&#39;</span> <span class="o">+</span> <span class="nx">numToRoll</span> <span class="o">+</span> <span class="s1">&#39;&quot;]&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">();</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">});</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;:button[name=&quot;roll&quot;]&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="kd">var</span> <span class="nx">multiRollSize</span><span class="p">,</span> <span class="nx">multiRoll</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">dicePerRoll</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">multiRollSize</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">val</span><span class="p">());</span>
+</span><span class='line'>      <span class="nx">multiRoll</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MultiRoll</span><span class="p">(</span><span class="nx">multiRollSize</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">);</span>
+</span><span class='line'>      <span class="nx">multiRoll</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+</span><span class='line'>    <span class="p">});</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'><span class="p">}(</span><span class="nx">jQuery</span><span class="p">));</span>
+</span></code></pre></td></tr></table></div></figure>
+</div>
+
+
+<h3>Paraphrased Code</h3>
+
+<p>At first I was too distracted by how the comment at the top of this file sounds like it&rsquo;s been through Google translate too many times to notice that it renamed me &ldquo;Natalie bleak&rdquo;!  That&rsquo;s definitely what I&rsquo;ll go by should I ever join a doom metal band.</p>
+
+<p>This rewording &ndash; with its &ldquo;work&rdquo;, &ldquo;turn over&rdquo;, &ldquo;supply&rdquo;, &ldquo;volt-ampere&rdquo;, &ldquo;joule&rdquo;, and &ldquo;mathematics.shock&rdquo; (my personal favourite) &ndash; sounds like it was composed by a soulless capitalist robot.  A big, lumbering capitalist robot with a soft spot for tacos, as indicated by line 35 (to be fair, &ldquo;tacos&rdquo; was left over from a debugging line in the original script).</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+<span class='line-number'>121</span>
+<span class='line-number'>122</span>
+<span class='line-number'>123</span>
+<span class='line-number'>124</span>
+<span class='line-number'>125</span>
+<span class='line-number'>126</span>
+<span class='line-number'>127</span>
+<span class='line-number'>128</span>
+<span class='line-number'>129</span>
+<span class='line-number'>130</span>
+<span class='line-number'>131</span>
+<span class='line-number'>132</span>
+<span class='line-number'>133</span>
+<span class='line-number'>134</span>
+<span class='line-number'>135</span>
+<span class='line-number'>136</span>
+<span class='line-number'>137</span>
+<span class='line-number'>138</span>
+<span class='line-number'>139</span>
+<span class='line-number'>140</span>
+<span class='line-number'>141</span>
+<span class='line-number'>142</span>
+<span class='line-number'>143</span>
+<span class='line-number'>144</span>
+<span class='line-number'>145</span>
+<span class='line-number'>146</span>
+<span class='line-number'>147</span>
+<span class='line-number'>148</span>
+<span class='line-number'>149</span>
+<span class='line-number'>150</span>
+<span class='line-number'>151</span>
+<span class='line-number'>152</span>
+<span class='line-number'>153</span>
+<span class='line-number'>154</span>
+<span class='line-number'>155</span>
+<span class='line-number'>156</span>
+<span class='line-number'>157</span>
+<span class='line-number'>158</span>
+<span class='line-number'>159</span>
+<span class='line-number'>160</span>
+<span class='line-number'>161</span>
+<span class='line-number'>162</span>
+<span class='line-number'>163</span>
+<span class='line-number'>164</span>
+<span class='line-number'>165</span>
+<span class='line-number'>166</span>
+<span class='line-number'>167</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="cm">/**</span>
+</span><span class='line'><span class="cm"> * manipulate cube turn over</span>
+</span><span class='line'><span class="cm"> *</span>
+</span><span class='line'><span class="cm"> * (hundred) 2011 Tavish Armstrong and Natalie bleak and besides Lachlan Fletcher</span>
+</span><span class='line'><span class="cm"> */</span>
+</span><span class='line'><span class="p">(</span><span class="nx">work</span> <span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">random</span><span class="p">,</span> <span class="nx">fudgeDie</span><span class="p">,</span> <span class="nx">fudgeDice</span><span class="p">,</span> <span class="nx">getRollSet</span><span class="p">,</span> <span class="nx">getRoll</span><span class="p">,</span>
+</span><span class='line'>      <span class="nx">renderRoll</span><span class="p">,</span> <span class="nx">renderDie</span><span class="p">,</span> <span class="nx">summarize</span><span class="p">,</span> <span class="nx">outputDice</span><span class="p">,</span>
+</span><span class='line'>      <span class="nx">clearCommand</span><span class="p">,</span> <span class="nx">renderBigRoll</span><span class="p">,</span> <span class="nx">diceImages</span><span class="p">,</span> <span class="nx">getDieImage</span><span class="p">,</span>
+</span><span class='line'>      <span class="nx">MultiRoll</span><span class="p">,</span> <span class="nx">turn</span> <span class="nx">over</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">diceImages</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="s1">&#39;-1&#39;</span><span class="o">:</span> <span class="s1">&#39;dice_minusone.png&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s1">&#39;0&#39;</span><span class="o">:</span> <span class="s1">&#39;dice_zero.png&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s1">&#39;1&#39;</span><span class="o">:</span> <span class="s1">&#39;dice_one.png&#39;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">random</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">randomMax</span><span class="o">:</span> <span class="nx">work</span><span class="p">(</span><span class="nx">soap</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">randomRange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">soap</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">},</span>
+</span><span class='line'>    <span class="nx">randomRange</span><span class="o">:</span> <span class="nx">work</span><span class="p">(</span><span class="nx">minute</span><span class="p">,</span> <span class="nx">soap</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="nx">minute</span> <span class="o">&lt;</span> <span class="nx">soap</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="k">return</span> <span class="nx">minute</span> <span class="o">+</span> <span class="nx">mathematics</span><span class="p">.</span><span class="nx">shock</span><span class="p">(</span><span class="nx">mathematics</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="p">(</span><span class="nx">soap</span> <span class="o">-</span> <span class="nx">minute</span> <span class="o">+</span> <span class="mi">1</span><span class="p">));</span>
+</span><span class='line'>      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">shed</span> <span class="s2">&quot;Invalid range&quot;</span><span class="p">;</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">work</span> <span class="nx">turn</span> <span class="nx">over</span><span class="p">(</span><span class="nx">dicePerRoll</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">size</span> <span class="o">=</span> <span class="nx">dicePerRoll</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">supply</span> <span class="o">=</span> <span class="nx">work</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="k">if</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">comfort</span> <span class="o">!==</span> <span class="s2">&quot;undefined&quot;</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">comfort</span><span class="p">.</span><span class="nx">lumber</span><span class="p">(</span><span class="s2">&quot;tacos&quot;</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">work</span> <span class="nx">MultiRoll</span><span class="p">(</span><span class="nx">multiRollSize</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">size</span> <span class="o">=</span> <span class="nx">multiRollSize</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">dicePerRoll</span> <span class="o">=</span> <span class="nx">dicePerRoll</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">that</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">turn</span> <span class="nx">over</span> <span class="o">=</span> <span class="p">(</span><span class="nx">work</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">joule</span><span class="p">,</span> <span class="nx">rollArray</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">rollArray</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>      <span class="k">for</span><span class="p">(</span><span class="nx">joule</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">joule</span> <span class="o">&lt;</span> <span class="nx">that</span><span class="p">.</span><span class="nx">size</span><span class="p">;</span> <span class="nx">joule</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">rollArray</span><span class="p">[</span><span class="nx">joule</span><span class="p">]</span> <span class="o">=</span> <span class="nx">fresh</span> <span class="nx">turn</span> <span class="nx">over</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">dicePerRoll</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>      <span class="k">return</span> <span class="nx">rollArray</span><span class="p">;</span>
+</span><span class='line'>    <span class="p">}());</span>
+</span><span class='line'>    <span class="k">this</span><span class="p">.</span><span class="nx">supply</span> <span class="o">=</span> <span class="nx">work</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">one</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">comfort</span><span class="p">.</span><span class="nx">lumber</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">turn</span> <span class="nx">over</span><span class="p">);</span>
+</span><span class='line'>      <span class="k">for</span> <span class="p">(</span><span class="nx">one</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">one</span> <span class="o">&lt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">size</span><span class="p">;</span> <span class="nx">one</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">this</span><span class="p">.</span><span class="nx">turn</span> <span class="nx">over</span><span class="p">[</span><span class="nx">one</span><span class="p">].</span><span class="nx">supply</span><span class="p">();</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">summarize</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">one</span><span class="p">,</span> <span class="nx">summarize</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">one</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">one</span> <span class="o">&lt;</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">duration</span><span class="p">;</span> <span class="nx">one</span><span class="o">+=</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">summarize</span> <span class="o">+=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">one</span><span class="p">];</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">summarize</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">fudgeDie</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">random</span><span class="p">.</span><span class="nx">randomRange</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="c1">// turn over nitrogen cube</span>
+</span><span class='line'>  <span class="nx">fudgeDice</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">nitrogen</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">one</span><span class="p">,</span> <span class="nx">turn</span> <span class="nx">over</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">turn</span> <span class="nx">over</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">one</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">one</span> <span class="o">&lt;</span> <span class="nx">nitrogen</span><span class="p">;</span> <span class="nx">one</span><span class="o">+=</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">turn</span> <span class="nx">over</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">fudgeDie</span><span class="p">());</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">turn</span> <span class="nx">over</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">getRoll</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">numDice</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">cube</span><span class="p">,</span> <span class="nx">theSum</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">cube</span> <span class="o">=</span> <span class="nx">fudgeDice</span><span class="p">(</span><span class="nx">numDice</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">theSum</span> <span class="o">=</span> <span class="nx">summarize</span><span class="p">(</span><span class="nx">cube</span><span class="p">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">cube</span><span class="o">:</span> <span class="nx">cube</span>
+</span><span class='line'>      <span class="p">,</span> <span class="nx">summarize</span><span class="o">:</span> <span class="nx">theSum</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">getRollSet</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">numRolls</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">one</span><span class="p">,</span> <span class="nx">turn</span> <span class="nx">over</span> <span class="o">=</span> <span class="p">[];</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">one</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">one</span> <span class="o">&lt;</span> <span class="nx">numRolls</span><span class="p">;</span> <span class="nx">one</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">turn</span> <span class="nx">over</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">getRoll</span><span class="p">(</span><span class="nx">dicePerRoll</span><span class="p">));</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">turn</span> <span class="nx">over</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">getDieImage</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">dieValue</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">diceImages</span><span class="p">[(</span><span class="nx">fresh</span> <span class="nx">total</span><span class="p">(</span><span class="nx">dieValue</span><span class="p">)).</span><span class="nx">toString</span><span class="p">()];</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">renderDie</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">five</span> <span class="nx">hundred</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">cross</span><span class="p">,</span> <span class="nx">img</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">cross</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;&lt;cross class=&quot;die&quot;&gt;&lt;/cross&gt;&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">img</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;&lt;img/&gt;&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;src&quot;</span><span class="p">,</span> <span class="nx">getDieImage</span><span class="p">(</span><span class="nx">five</span> <span class="nx">hundred</span><span class="p">));</span>
+</span><span class='line'>    <span class="nx">img</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">,</span> <span class="nx">five</span> <span class="nx">hundred</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">img</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;alt&quot;</span><span class="p">,</span> <span class="nx">five</span> <span class="nx">hundred</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">img</span><span class="p">.</span><span class="nx">addClass</span><span class="p">(</span><span class="s2">&quot;die&quot;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">cross</span><span class="p">.</span><span class="nx">add</span> <span class="nx">on</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">cross</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">outputDice</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">roentgen</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">one</span><span class="p">,</span> <span class="nx">diceOut</span> <span class="o">=</span> <span class="p">[],</span> <span class="nx">extinct</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">for</span> <span class="p">(</span><span class="nx">one</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">one</span> <span class="o">&lt;</span> <span class="nx">roentgen</span><span class="p">.</span><span class="nx">cube</span><span class="p">.</span><span class="nx">duration</span><span class="p">;</span> <span class="nx">one</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">diceOut</span><span class="p">[</span><span class="nx">one</span><span class="p">]</span> <span class="o">=</span> <span class="nx">renderDie</span><span class="p">(</span><span class="nx">roentgen</span><span class="p">.</span><span class="nx">cube</span><span class="p">[</span><span class="nx">one</span><span class="p">]).</span><span class="nx">hypertext</span> <span class="nx">markup</span> <span class="nx">language</span><span class="p">();</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="nx">extinct</span> <span class="o">=</span> <span class="nx">diceOut</span><span class="p">.</span><span class="nx">fall</span> <span class="k">in</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">extinct</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">renderBigRoll</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">(</span><span class="nx">turn</span> <span class="nx">over</span><span class="p">,</span> <span class="nx">one</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">templet</span><span class="p">,</span> <span class="nx">require</span><span class="p">,</span> <span class="nx">bigRoll</span><span class="p">,</span> <span class="nx">cube</span><span class="p">,</span> <span class="nx">resultSum</span><span class="p">,</span> <span class="nx">resultName</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">require</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#current-require&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">templet</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.bigRoll.templateRoll&#39;</span><span class="p">,</span> <span class="nx">require</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">newBigRoll</span> <span class="o">=</span> <span class="nx">templet</span><span class="p">.</span><span class="nx">copy</span><span class="p">();</span>
+</span><span class='line'>    <span class="nx">cube</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.cube&#39;</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">resultSum</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.result &gt; .summarize&#39;</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">resultName</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.result &gt; .name&#39;</span><span class="p">,</span> <span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nx">cube</span><span class="p">.</span><span class="nx">hypertext</span> <span class="nx">markup</span> <span class="nx">language</span><span class="p">(</span><span class="nx">outputDice</span><span class="p">(</span><span class="nx">turn</span> <span class="nx">over</span><span class="p">));</span>
+</span><span class='line'>    <span class="nx">resultSum</span><span class="p">.</span><span class="nx">hypertext</span> <span class="nx">markup</span> <span class="nx">language</span><span class="p">(</span><span class="nx">turn</span> <span class="nx">over</span><span class="p">.</span><span class="nx">summarize</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>    <span class="nx">newBigRoll</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">&#39;templateRoll&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">require</span><span class="p">.</span><span class="nx">add</span> <span class="nx">on</span><span class="p">(</span><span class="nx">newBigRoll</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">clearCommand</span> <span class="o">=</span> <span class="nx">work</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#current-require .bigRoll:not(.templateRoll)&#39;</span><span class="p">).</span><span class="nx">take</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nx">affirm</span><span class="p">).</span><span class="nx">quick</span><span class="p">(</span><span class="nx">work</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="nx">affirm</span><span class="p">).</span><span class="nx">keypress</span><span class="p">(</span><span class="nx">work</span> <span class="p">(</span><span class="k">case</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">keyNum</span><span class="p">,</span> <span class="nx">numToRoll</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">keyNum</span> <span class="o">=</span> <span class="k">case</span><span class="p">.</span><span class="nx">which</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="c1">// presume information technology&#39;second angstrom total cardinal, calculate extinct what</span>
+</span><span class='line'>      <span class="c1">// total information technology one.</span>
+</span><span class='line'>      <span class="nx">numToRoll</span> <span class="o">=</span> <span class="nx">keyNum</span> <span class="o">-</span> <span class="mi">48</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="nx">numToRoll</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">numToRoll</span> <span class="o">&lt;=</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;:button[name=&quot;turn over&quot;][value=&quot;&#39;</span> <span class="o">+</span> <span class="nx">numToRoll</span> <span class="o">+</span> <span class="s1">&#39;&quot;]&#39;</span><span class="p">).</span><span class="nx">snap</span><span class="p">();</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>    <span class="p">});</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;:button[name=&quot;turn over&quot;]&#39;</span><span class="p">).</span><span class="nx">snap</span><span class="p">(</span><span class="nx">work</span> <span class="p">(</span><span class="k">case</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">volt</span><span class="o">-</span><span class="nx">ampere</span> <span class="nx">multiRollSize</span><span class="p">,</span> <span class="nx">multiRoll</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">dicePerRoll</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+</span><span class='line'>      <span class="nx">multiRollSize</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">val</span><span class="p">());</span>
+</span><span class='line'>      <span class="nx">multiRoll</span> <span class="o">=</span> <span class="nx">fresh</span> <span class="nx">MultiRoll</span><span class="p">(</span><span class="nx">multiRollSize</span><span class="p">,</span> <span class="nx">dicePerRoll</span><span class="p">);</span>
+</span><span class='line'>      <span class="nx">multiRoll</span><span class="p">.</span><span class="nx">supply</span><span class="p">();</span>
+</span><span class='line'>    <span class="p">});</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'><span class="p">}(</span><span class="nx">jQuery</span><span class="p">));</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3><a href="https://github.com/kennethreitz/requests/blob/master/requests/api.py">api.py</a> from <a href="https://github.com/kennethreitz/requests">Requests</a></h3>
+
+<p><a href="#" id="original_requests_link">show original code</a></p>
+
+<div id="original_requests">
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># -*- coding: utf-8 -*-</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'><span class="sd">requests.api</span>
+</span><span class='line'><span class="sd">~~~~~~~~~~~~</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">This module implements the Requests API.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:copyright: (c) 2012 by Kenneth Reitz.</span>
+</span><span class='line'><span class="sd">:license: Apache2, see LICENSE for more details.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">sessions</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">request</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Constructs and sends a :class:`Request &lt;Request&gt;`.</span>
+</span><span class='line'><span class="sd">Returns :class:`Response &lt;Response&gt;` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param method: method for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param params: (optional) Dictionary or bytes to be sent in the query string for the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param data: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param headers: (optional) Dictionary of HTTP Headers to send with the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param cookies: (optional) Dict or CookieJar object to send with the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param files: (optional) Dictionary of &#39;name&#39;: file-like-objects (or {&#39;name&#39;: (&#39;filename&#39;, fileobj)}) for multipart encoding upload.</span>
+</span><span class='line'><span class="sd">:param auth: (optional) Auth tuple to enable Basic/Digest/Custom HTTP Auth.</span>
+</span><span class='line'><span class="sd">:param timeout: (optional) Float describing the timeout of the request in seconds.</span>
+</span><span class='line'><span class="sd">:param allow_redirects: (optional) Boolean. Set to True if POST/PUT/DELETE redirect following is allowed.</span>
+</span><span class='line'><span class="sd">:param proxies: (optional) Dictionary mapping protocol to the URL of the proxy.</span>
+</span><span class='line'><span class="sd">:param verify: (optional) if ``True``, the SSL cert will be verified. A CA_BUNDLE path can also be provided.</span>
+</span><span class='line'><span class="sd">:param stream: (optional) if ``False``, the response content will be immediately downloaded.</span>
+</span><span class='line'><span class="sd">:param cert: (optional) if String, path to ssl client cert file (.pem). If Tuple, (&#39;cert&#39;, &#39;key&#39;) pair.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">Usage::</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">&gt;&gt;&gt; import requests</span>
+</span><span class='line'><span class="sd">&gt;&gt;&gt; req = requests.request(&#39;GET&#39;, &#39;http://httpbin.org/get&#39;)</span>
+</span><span class='line'><span class="sd">&lt;Response [200]&gt;</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">session</span> <span class="o">=</span> <span class="n">sessions</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">session</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a GET request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">&#39;allow_redirects&#39;</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;get&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">options</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a OPTIONS request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">&#39;allow_redirects&#39;</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;options&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">head</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a HEAD request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">&#39;allow_redirects&#39;</span><span class="p">,</span> <span class="bp">False</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;head&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a POST request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param data: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;post&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">put</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a PUT request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param data: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;put&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">patch</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a PATCH request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param data: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;patch&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a DELETE request. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param url: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">request</span><span class="p">(</span><span class="s">&#39;delete&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+</div>
+
+
+<h3>Paraphrased Code</h3>
+
+<p>This is basically one big endorsement for method acting (acting acting).</p>
+
+<p>I&rsquo;m not sure why the first synonym to come up for &ldquo;True&rdquo; is &ldquo;dead on target&rdquo;, but I&rsquo;ll take it.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># -*- coding: utf-8 -*-</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'><span class="sd">requests.api</span>
+</span><span class='line'><span class="sd">~~~~~~~~~~~~</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">This module implements the Requests API.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:copyright: (c) 2012 by Kenneth Reitz.</span>
+</span><span class='line'><span class="sd">:license: Apache2, see LICENSE for more details.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">from</span> <span class="nn">.</span> <span class="nn">spell</span> <span class="nn">Sessions</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">bespeak</span><span class="p">(</span><span class="n">method</span> <span class="n">acting</span> <span class="n">acting</span> <span class="n">acting</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Constructs and sends a :class:`Request &lt;Request&gt;`.</span>
+</span><span class='line'><span class="sd">Returns :class:`Response &lt;Response&gt;` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param method acting acting acting: method acting acting acting for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param params: (optional) Dictionary or bytes to be sent in the query string for the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param information: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param headers: (optional) Dictionary of HTTP Headers to send with the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param cookies: (optional) Dict or CookieJar object to send with the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param files: (optional) Dictionary of &#39;name&#39;: file-like-objects (or {&#39;name&#39;: (&#39;filename&#39;, fileobj)}) for multipart encoding upload.</span>
+</span><span class='line'><span class="sd">:param auth: (optional) Auth tuple to enable Basic/Digest/Custom HTTP Auth.</span>
+</span><span class='line'><span class="sd">:param timeout: (optional) Float describing the timeout of the bespeak in seconds.</span>
+</span><span class='line'><span class="sd">:param allow_redirects: (optional) Boolean. Set to dead on target if POST/PUT/DELETE redirect following is allowed.</span>
+</span><span class='line'><span class="sd">:param proxies: (optional) Dictionary mapping protocol to the URL of the proxy.</span>
+</span><span class='line'><span class="sd">:param verify: (optional) if ``dead on target``, the SSL cert will be verified. A CA_BUNDLE path can also be provided.</span>
+</span><span class='line'><span class="sd">:param stream: (optional) if ``mistaken``, the response content will be immediately downloaded.</span>
+</span><span class='line'><span class="sd">:param cert: (optional) if String, path to ssl client cert file (.pem). If Tuple, (&#39;cert&#39;, &#39;key&#39;) pair.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">Usage::</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">&gt;&gt;&gt; spell requests</span>
+</span><span class='line'><span class="sd">&gt;&gt;&gt; req = requests.bespeak(&#39;GET&#39;, &#39;http://httpbin.org/get&#39;)</span>
+</span><span class='line'><span class="sd">&lt;Response [200]&gt;</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">school</span> <span class="n">term</span> <span class="o">=</span> <span class="n">Sessions</span><span class="o">.</span><span class="n">school</span> <span class="n">term</span><span class="p">()</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">school</span> <span class="n">term</span><span class="o">.</span><span class="n">bespeak</span><span class="p">(</span><span class="n">method</span> <span class="n">acting</span> <span class="n">acting</span> <span class="n">acting</span><span class="o">=</span><span class="n">method</span> <span class="n">acting</span> <span class="n">acting</span><span class="p">,</span> <span class="n">URL</span><span class="o">=</span><span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a GET bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">&#39;allow_redirects&#39;</span><span class="p">,</span> <span class="n">dead</span> <span class="n">on</span> <span class="n">target</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;get&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">alternative</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a OPTIONS bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">&#39;allow_redirects&#39;</span><span class="p">,</span> <span class="n">dead</span> <span class="n">on</span> <span class="n">target</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;alternative&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">lead</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a HEAD bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">kwargs</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">&#39;allow_redirects&#39;</span><span class="p">,</span> <span class="n">mistaken</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;lead&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">station</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="n">information</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a POST bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param information: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;station&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="n">information</span><span class="o">=</span><span class="n">information</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="n">information</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a PUT bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param information: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;set&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="n">information</span><span class="o">=</span><span class="n">information</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">piece</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="n">information</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a PATCH bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param information: (optional) Dictionary, bytes, or file-like object to send in the body of the :class:`Request`.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;piece&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="n">information</span><span class="o">=</span><span class="n">information</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">cancel</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+</span><span class='line'>    <span class="sd">&quot;&quot;&quot;Sends a DELETE bespeak. Returns :class:`Response` object.</span>
+</span><span class='line'>
+</span><span class='line'><span class="sd">:param URL: URL for the new :class:`Request` object.</span>
+</span><span class='line'><span class="sd">:param \*\*kwargs: Optional arguments that ``bespeak`` takes.</span>
+</span><span class='line'><span class="sd">&quot;&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="n">bespeak</span><span class="p">(</span><span class="s">&#39;cancel&#39;</span><span class="p">,</span> <span class="n">URL</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/04/23/processing-sketches/"/>
+    <updated>2014-04-23T20:11:43-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/04/23/processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    function start_or_stop(i){
+      st = $("#" + i).attr("status");
+      sketch = Processing.getInstanceById(i);
+      c = $("#" + i)
+      if(st == "on"){
+          c.attr("status", "off");
+          sketch.noLoop();
+          $("#" + i + "_link").text("show sketch");
+      } else {
+          c.attr("status", "on");
+          sketch.loop();
+          $("#" + i + "_link").text("hide sketch");
+      }
+    }
+
+    function toggle_start_stop(i) {
+        $("#" + i).toggle();
+        start_or_stop(i);
+    }
+
+    function setup(tag){
+      $("#" + tag).hide();
+      $("#" + tag + "_link").click(function() {
+        toggle_start_stop(tag);
+      });
+    }
+
+    setup("alpha");
+    setup("pressure");
+    setup("pressure2");
+    setup("pressure3");
+    setup("cast");
+    setup("scramble");
+
+});
+</script>
+
+
+<p>I have wanted to do something with <a href="http://www.processing.org/">Processing</a> ever since I learned of its existence.</p>
+
+<!--more-->
+
+
+<p>From the Processing website:</p>
+
+<blockquote><p>Initially created to serve as a software sketchbook and to teach computer programming fundamentals within a visual context</p></blockquote>
+
+<p>The idea of a software sketchbook, or an &ldquo;electronic sketchbook&rdquo; as <a href="http://en.wikipedia.org/wiki/Processing_%28programming_language%29">Wikipedia</a> puts it, is particularly enticing to me.  My first interest in learning to control computers stemmed from the potential I saw in them to be used as artistic implements.  My impression was (and still is) that there is a lot of unexplored territory in the intersection between computers and art.  I suspected this might be because of the limited overlap between people with technical knowledge and those with artistic inclinations.  Artistic intention definitely preceded technical ability in my case, but somehow once I started to learn about programming and the web I became distracted by new goals like creating web apps and solving Project Euler problems.  It&rsquo;s interesting how common applications of technology are inadvertently learned alongside technologies themselves.  My education taught me not only how to write HTML, but also that websites for poker or real estate listing are standard uses for it.  I learned that C++ is good for games development and Perl is good for CGI scripts and LISP is good for AIs, and I wanted to try making all of those suggested things because they are also fun and interesting.  I think that any of these tools could be used to make art, but what I like about Processing is that it volunteers to be used for that purpose.  Having that intention built into the programming language&rsquo;s environment helps keep me in the right mindset if nothing else.</p>
+
+<p>A friend and I were recently talking about programming as the process of constantly making and correcting mistakes and the consistent feeling of failure that haunts you as a consequence.  So far my experience making doodles and sketches in Processing has been a refreshing departure from that kind of programming.  Although some mistakes I made along the way felt like failures &ndash; like when my code wouldn&rsquo;t run at all &ndash; often when I did unintentionally coded something that wasn&rsquo;t my intention it felt more like a discovery than a failure.  I might write a loop around one thing when I meant to write it around another, but the result would be interesting and lead me down a path that I wouldn&rsquo;t have followed if it hadn&rsquo;t been for my inaccuracy.  The programming environment played a role not entirely unlike that of water in watercolour painting, removing a degree of control and introducing a level of unpredictability that was seredipitous as often as it was frustrating.</p>
+
+<p>All of these doodles were based on <a href="https://www.processing.org/examples/pointillism.html">this pointilism example</a> from the Processing website.  The idea behind them (besides simply trying out Processing) was to incorporate a &ldquo;natural&rdquo; level of visual variation that falls somewhere between the (pseudo) random and strictly deterministic patterns that are most easily generated by computers.  To achieve more &ldquo;natural&rdquo; patterns I incorporated data sets from the natural or human world.</p>
+
+<p>You might label these &ldquo;data-driven doodles&rdquo;.  I googled &ldquo;data-driven art&rdquo; and the <a href="http://variable.io/">results</a> <a href="http://www.fastcodesign.com/1662578/16-astounding-experiments-in-data-driven-art-slideshow">seemed</a> to be consistent with what I was thinking of &ndash; visual works that are generated from data sets but which prioritize aesthetics over communication of data (the google search also turned up <a href="http://www.furtherfield.org/features/reviews/data-driven-artists-and-their-critics">this super interesting article</a> about a different interpretation of the phrase &ldquo;data-driven art&rdquo;).</p>
+
+<p>In this first sketch, the colours of the dots (which are of uniform size and randomly scattered about the canvas) are derived from the <a href="http://pressurenet.io">pressureNet</a> data set that I wrote about in my last post.  I chose a blue as the base colour for the dots and used the atmospheric pressure reading from each dot&rsquo;s corresponding data point to determine the amount of green to add to the dot&rsquo;s colour.</p>
+
+<p><a href="#" id="pressure_link">show sketch</a></p>
+
+<p><canvas id="pressure" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/purplepressure.pde"> </canvas></p>
+
+<p>The second sketch is generated the same way as the first except the sizes of the dots are also randomized.</p>
+
+<p><a href="#" id="pressure2_link">show sketch</a></p>
+
+<p><canvas id="pressure2" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/randomsizepressurecolour.pde"> </canvas></p>
+
+<p>The third sketch randomizes the amount of green added to each (again, initially blue) dot and uses its corresponding atmospheric pressure reading to determine the size of the dot.</p>
+
+<p><a href="#" id="pressure3_link">show sketch</a></p>
+
+<p><canvas id="pressure3" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/pressuresize.pde"> </canvas></p>
+
+<p>The next sketch also uses random placement, uniform size, and a base colour of blue for the dots.  The data set this sketch uses is the <a href="http://www.gutenberg.org/files/1342/1342-h/1342-h.htm">text of Pride and Prejudice</a>.  Each dot corresponds to a character (as in letter, number, or punctionation mark &ndash; not a person in the story) from the text, and the ASCII code of that character determines the amount of green added to the dot&rsquo;s colour.</p>
+
+<p><a href="#" id="alpha_link">show sketch</a></p>
+
+<p><canvas id="alpha" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/alphabetcolours.pde"> </canvas></p>
+
+<p>The next sketch is a bit more complicated.  Again, the placement of the dots is random and the size is uniform.  The data behind this one is my 2013 <a href="http://nanowrimo.org/">NaNoWriMo</a> novel, or specifically the occurences of characters (this time referring to the people in the story) within it.  I made a spreadsheet of all my main cast members and their aliases, nicknames, etc and assigned each person a base colour.  Each dot in the sketch corresponds to the occurence of one of my cast members&#8217; names and is coloured accordingly.  The colour gets diluted in accordance to how far down the list of the character&rsquo;s aliases the given name appears.  For example, if I was a character assigned the colour purple and my list of aliases was [&ldquo;Natalie&rdquo;, &ldquo;Nat&rdquo;, &ldquo;brain_box&rdquo;], then each occurence of &ldquo;Natalie&rdquo; in the text would create a vibrant purple dot, each occurence of &ldquo;brain_box&rdquo; would lead to a more dull purple dot, and each occurrence of &ldquo;Nat&rdquo; would create a dot with a purple colour halfway in between the vibrant and the dull purples.</p>
+
+<p><a href="#" id="cast_link">show sketch</a></p>
+
+<p><canvas id="cast" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/characters.pde"> </canvas></p>
+
+<p>The last sketch doesn&rsquo;t incorporate a data set like the others, but rather an existing <a href="http://NatalieBlack.github.io/images/helaliedoodleII.png" target="blank" id="imglink">image</a> (a collaborative doodle made by me and my friend <a href="https://twitter.com/thatsillyhelen">Helen</a>).</p>
+
+<p>The size and location of the dots are randomly generated, but the colours of the dots are taken from random pixels in that image.</p>
+
+<p><a href="#" id="scramble_link">show sketch</a></p>
+
+<p><canvas id="scramble" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/scramblenomouse.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Attempt at Science]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/03/23/an-attempt-at-science/"/>
+    <updated>2014-03-23T17:21:08-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/03/23/an-attempt-at-science</id>
+    <content type="html"><![CDATA[<p>Last Saturday I spent the afternoon messing around with some open data sets using IPython notebook and pandas.</p>
+
+<!--more-->
+
+
+<p>The first data set came from the city of Toronto&rsquo;s open data <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9e56e03bb8d1e310VgnVCM10000071d60f89RCRD">portal</a>, and contained records of all the official heat warnings released by the city since 2001.  The second data set contained atmospheric pressure readings from smart phones throughout the city of Toronto.  I got this data through the developer API for <a href="http://pressurenet.io/">pressureNET</a>, a Toronto-based startup run by my friend <a href="http://jacobsheehy.com/">Jacob</a> and <a href="http://philippejones.com/">some</a> <a href="http://jaredkerim.com/">other</a> cool guys.  Knowing that atmospheric pressure and temperature are somehow related, I formed the hypothesis that there would be a correlation between the pressure readings and the occurrence of heat warnings.</p>
+
+<p>This <a href="http://nbviewer.ipython.org/gist/anonymous/137e0bd2a813decb1bfc">IPython notebook</a> shows how I went about testing my hypothesis.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A List of Github Repositories that Share Titles with Songs by Tegan and Sara]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/02/24/a-list-github-repositories-that-share-titles-with-songs-by-tegan-and-sara/"/>
+    <updated>2014-02-24T16:04:25-05:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/02/24/a-list-github-repositories-that-share-titles-with-songs-by-tegan-and-sara</id>
+    <content type="html"><![CDATA[<p>It recently came to my attention there exists a plethora of github repositories that have the honour of sharing their names with songs by Tegan and Sara.  As the world&rsquo;s foremost* Tegan and Sara/code crossover enthusiast I feel that it is my duty to enumerate these repositories and give them each a nod of approval.</p>
+
+<!--more-->
+
+
+<h2>Sainthood</h2>
+
+<h3>Arrow</h3>
+
+<p><a href="https://github.com/crsmithdev/arrow">arrow</a> by crsmithdev<br/>
+<a href="https://github.com/proverma/arrow">arrow</a> by proverma</p>
+
+<h3>Hell</h3>
+
+<p><a href="https://github.com/chrisdone/hell">hell</a> by chrisdone</p>
+
+<h3>The Cure</h3>
+
+<p><a href="https://github.com/Gignite/the-cure">the-cure</a> by Gignite<br/>
+<a href="https://github.com/chipx86/the-cure">the-cure</a> by chipx86</p>
+
+<h3>Night Watch</h3>
+
+<p><a href="https://github.com/manishkshwh/NightWatch">NightWatch</a> by manishkshwh<br/>
+<a href="https://github.com/Jwho303/Night-Watch">Night-Watch</a> by Jwho303</p>
+
+<h3>Alligator</h3>
+
+<p><a href="https://github.com/mrohad/Alligator">Alligator</a> by mrohad<br/>
+<a href="https://github.com/datalligator/alligator">alligator</a> by datalligator<br/>
+<a href="https://github.com/Pawka/Alligator">Alligator</a> by Pawka<br/>
+<a href="https://github.com/92bondstreet/alligator">alligator</a> by 92bondstreet</p>
+
+<h3>The Ocean</h3>
+
+<p><a href="https://github.com/thewhale/TheOcean">TheOcean</a> by thewhale</p>
+
+<h3>Someday</h3>
+
+<p><a href="https://github.com/jamesottaway/someday.js">someday.js</a> by jamesottaway<br/>
+<a href="https://github.com/Mar-vin/someday">someday</a> by Mar-vin<br/>
+<a href="https://github.com/lkhari/someday">someday</a> by lkhari (I&rsquo;ve been excluding most repositories with few to no commits, but I&rsquo;m fond of this one)</p>
+
+<h3>Light Up</h3>
+
+<p><a href="https://github.com/brhoades/light-up">light-up</a> by brhoades</p>
+
+<h2>I&rsquo;ll Take the Blame</h2>
+
+<h3>One Second</h3>
+
+<p><a href="https://github.com/thuetz/OneSecond">OneSecond</a> by thuetz<br/>
+<a href="https://github.com/liwenzhu/onesecond">onesecond</a> by liwenzhu</p>
+
+<h2>The Con</h2>
+
+<h3>The Con</h3>
+
+<p><a href="https://github.com/tnarik/thecon">thecon</a> by tnarik (I think this is actually meant to be read as one word (&ldquo;thecon&rdquo;) but I choose to ignore that)</p>
+
+<h3>Nineteen</h3>
+
+<p><a href="https://github.com/Naios/nineteen">nineteen</a> by Naios<br/>
+<a href="https://github.com/chriskuehl/nineteen">nineteen</a> by chriskuehl</p>
+
+<h3>Floorplan</h3>
+
+<p><a href="https://github.com/LC43/floorplan">floorplan</a> by LC43<br/>
+<a href="https://github.com/Aldaviva/floorplan">floorplan</a> by Aldaviva<br/>
+<a href="https://github.com/archfp/floorplan">floorplan</a> by archfp<br/>
+<a href="https://github.com/Q42/floorplan">floorplan</a> by Q42<br/>
+<a href="https://github.com/li3939108/floorplan">floorplan</a> by li3939108</p>
+
+<h2>So Jealous</h2>
+
+<h3>Downtown</h3>
+
+<p><a href="https://github.com/bennerhq/downtown">downtown</a> by bennerhq<br/>
+<a href="https://github.com/cvializ/downtown">downtown</a> by cvializ<br/>
+<a href="https://github.com/samaparo/downtown">downtown</a> by samaparo<br/>
+<a href="https://github.com/jdubie/downtown">downtown</a> by jdubie</p>
+
+<h3>Speak Slow</h3>
+
+<p><a href="https://github.com/yohasebe/speak_slow">speak_slow</a> by yohasebe</p>
+
+<h2>If It Was You</h2>
+
+<h3>Underwater</h3>
+
+<p><a href="https://github.com/derekerdmann/underwater">underwater</a> by derekerdmann<br/>
+<a href="https://github.com/vim-scripts/underwater">underwater</a> by vim-scripts</p>
+
+<h3>Living Room</h3>
+
+<p><a href="https://github.com/RecoilPerformanceGroup/Livingroom">Livingroom</a> by RecoilPerformanceGroup<br/>
+<a href="https://github.com/cpow/livingroom">livingroom</a> by cpow<br/>
+<a href="https://github.com/sigmonky/LivingRoom">Livingroom</a> by sigmonky</p>
+
+<h2>This Business of Art</h2>
+
+<h3>The First</h3>
+
+<p>It turns out there are oodles of repositories with this name, and from what I can see none of them have any meaningful code.  Here&rsquo;s my favourite of the lot:<br/>
+<a href="https://github.com/gowithqi/TheFirst">TheFirst</a> by gowithqi</p>
+
+<h3>My Number</h3>
+
+<p><a href="https://github.com/odistagon/MyNumber">MyNumber</a> by odistagon<br/>
+<a href="https://github.com/Xmanliujun/MyNumber">MyNumber</a> by Xmanliujun</p>
+
+<h2>This Business of Art &amp; Under Feet Like Ours</h2>
+
+<h3>Frozen</h3>
+
+<p><a href="https://github.com/iceddev/frozen">frozen</a> by iceddev<br/>
+<a href="https://github.com/x86-64/frozen">frozen</a> by x86-64<br/>
+<a href="https://github.com/FelipeMartinin/frozen">frozen</a> by FelipeMartinin<br/>
+<a href="https://github.com/mpneuried/frozen">frozen</a> by mpneuried<br/>
+<a href="https://github.com/kbl/frozen">frozen</a> by kbl<br/>
+<a href="https://github.com/cesanta/frozen">frozen</a> by cesanta<br/>
+<a href="https://github.com/FelipeMartinin/frozen">frozen</a> by FelipeMartinin<br/>
+<a href="https://github.com/devseer/frozen">frozen</a> by devseer</p>
+
+<h3>Superstar</h3>
+
+<p><a href="https://github.com/rea2000/superstar">superstar</a> by rea2000</p>
+
+<h3>Proud</h3>
+
+<p><a href="https://github.com/bahmutov/proud">proud</a> by bahmutov</p>
+
+<h3>Come On</h3>
+
+<p><a href="https://github.com/edouardhue/comeon">comeon</a> by edouardhue<br/>
+<a href="https://github.com/avgaltsev/comeon">comeon</a> by avgaltsev</p>
+
+<h2>Under Feet Like Ours</h2>
+
+<h3>Welcome Home</h3>
+
+<p><a href="https://github.com/seanherron/welcomehome">welcomehome</a> by seanherron<br/>
+<a href="https://github.com/jaybyron/welcomehome">welcomehome</a> by jaybyron<br/>
+<a href="https://github.com/mootoh/WelcomeHome">WelcomeHome</a> by mootoh</p>
+
+<h2>The Red Demos</h2>
+
+<h3>Celebration</h3>
+
+<p><a href="https://github.com/peter-ivanov87/celebration">celebration</a> by peter-ivanov87</p>
+
+<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#x6e;&#x61;&#x74;&#x61;&#x6c;&#x69;&#101;&#x76;&#x69;&#x63;&#x74;&#x6f;&#x72;&#105;&#97;&#98;&#108;&#97;&#99;&#x6b;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;&#x2e;">&#110;&#97;&#116;&#x61;&#x6c;&#x69;&#x65;&#118;&#105;&#99;&#x74;&#x6f;&#114;&#105;&#97;&#98;&#108;&#97;&#x63;&#x6b;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;&#x2e;</a></sub></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Emily Dickinson should have tried Linux]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/02/19/emily-dickinson-should-have-tried-linux/"/>
+    <updated>2014-02-19T23:36:44-05:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/02/19/emily-dickinson-should-have-tried-linux</id>
+    <content type="html"><![CDATA[<p>Emily Dickinson, frustrated Microsoft user, describes the blue screen of death in poem 465:</p>
+
+<blockquote><p>&ldquo;With Blue &ndash; uncertain stumbling Buzz -<br/>
+Between the light &ndash; and me -<br/>
+And then the Windows failed &ndash; and then<br/>
+I could not see to see &ndash;  &rdquo; (13-16)</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

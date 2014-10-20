@@ -3,7 +3,7 @@ layout: post
 title: "Processing Sketches"
 date: 2014-04-23 20:11:43 -0400
 comments: true
-categories:  [processing, art, programming, 'computer art']
+categories:  [processing, art, programming, 'computer art', pressureNet, data, 'data-driven art']
 ---
 <script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 <script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>

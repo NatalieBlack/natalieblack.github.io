@@ -20,6 +20,7 @@
 #                          'Category: ').
 
 require 'stringex'
+require 'csv'
 
 module Jekyll
 
@@ -102,6 +103,17 @@ module Jekyll
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
       self.pages << feed
     end
+    #
+    #write csv with category names, urls, post counts for use in homepage
+    def write_category_list
+      fname = File.join(self.config['source'], 'data', 'category_list.csv')
+      CSV.open(fname, 'w') do |csv|
+        self.categories.each do |cat|
+          cat_url = File.join(self.config['category_dir'], cat.first.to_url)
+          csv << [cat.first, cat_url, cat.last.size]
+        end
+      end
+    end
 
     # Loops through the list of category pages and processes each one.
     def write_category_indexes
@@ -137,6 +149,7 @@ ERR
 
     def generate(site)
       site.write_category_indexes
+      site.write_category_list
     end
 
   end

@@ -3,7 +3,7 @@ layout: post
 title: "A List of Github Repositories that Share Titles with Songs by Tegan and Sara"
 date: 2014-02-24 16:04:25 -0500
 comments: true
-categories: [github, 'Tegan and Sara', silliness]
+categories: [github, 'Tegan and Sara', silliness, music]
 ---
 It recently came to my attention there exists a plethora of github repositories that have the honour of sharing their names with songs by Tegan and Sara.  As the world's foremost\* Tegan and Sara/code crossover enthusiast I feel that it is my duty to enumerate these repositories and give them each a nod of approval.
 

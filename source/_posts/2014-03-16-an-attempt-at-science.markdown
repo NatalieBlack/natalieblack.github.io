@@ -3,7 +3,7 @@ layout: post
 title: "An Attempt at Science"
 date: 2014-03-23 17:21:08 -0400
 comments: true
-categories: ['IPython notebook', python, pandas, pressureNet, 'open data', 'data analysis', 'Cumulonimbus Inc.', Toronto, weather]
+categories: [code, data]
 ---
 
 Last Saturday I spent the afternoon messing around with some open data sets using IPython notebook and pandas.  

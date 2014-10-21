@@ -3,7 +3,7 @@ layout: post
 title: "Paraphrased Code Poetry"
 date: 2014-05-18 15:50:41 -0400
 comments: true
-categories: [code, poetry, python, ruby, javascript, programming, silliness, language]
+categories: [code, poetry, silliness, language]
 ---
 <script>
 $(document).ready(function() {

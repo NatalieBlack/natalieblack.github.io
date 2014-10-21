@@ -108,6 +108,7 @@ module Jekyll
     def write_category_list
       fname = File.join(self.config['source'], 'data', 'category_list.csv')
       CSV.open(fname, 'w') do |csv|
+        csv << ['tag','url','posts']
         self.categories.each do |cat|
           cat_url = File.join(self.config['category_dir'], cat.first.to_url)
           csv << [cat.first, cat_url, cat.last.size]

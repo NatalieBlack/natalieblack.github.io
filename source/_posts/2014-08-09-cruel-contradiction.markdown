@@ -3,7 +3,7 @@ layout: post
 title: "Coding Freedom and the Cruel Contradiction of Creative Collaboration"
 date: 2014-08-09 15:37:48 -0400
 comments: true
-categories: [books, quotes, music, jazz, 'code and art', 'Coding Freedom', 'open source', 'E. Gabriella Coleman', 'hacker culture']
+categories: [books, culture, music, 'open source']
 ---
 About a month ago I finished reading the highly intelligent <i>Coding Freedom</i> by E. Gabriella Coleman.
 

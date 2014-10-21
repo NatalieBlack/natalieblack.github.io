@@ -3,7 +3,7 @@ layout: post
 title: "Emily Dickinson should have tried Linux"
 date: 2014-02-19 23:36:44 -0500
 comments: true
-categories: [poetry, 'emily dickinson', silliness]
+categories: [poetry, silliness]
 ---
 Emily Dickinson, frustrated Microsoft user, describes the blue screen of death in poem 465:
 

@@ -1,33 +1,11 @@
-IPython notebook,blog/categories/ipython-notebook,1
-python,blog/categories/python,2
-pandas,blog/categories/pandas,1
-pressureNet,blog/categories/pressurenet,2
-open data,blog/categories/open-data,1
-data analysis,blog/categories/data-analysis,1
-Cumulonimbus Inc.,blog/categories/cumulonimbus-inc,1
-Toronto,blog/categories/toronto,1
-weather,blog/categories/weather,1
-github,blog/categories/github,1
-Tegan and Sara,blog/categories/tegan-and-sara,1
+tag,url,posts
+code,blog/categories/code,3
+data,blog/categories/data,2
+open source,blog/categories/open-source,2
 silliness,blog/categories/silliness,3
 music,blog/categories/music,2
-code,blog/categories/code,1
 poetry,blog/categories/poetry,2
-ruby,blog/categories/ruby,1
-javascript,blog/categories/javascript,1
-programming,blog/categories/programming,2
 language,blog/categories/language,1
-processing,blog/categories/processing,1
 art,blog/categories/art,1
-computer art,blog/categories/computer-art,1
-data,blog/categories/data,1
-data-driven art,blog/categories/data-driven-art,1
-emily dickinson,blog/categories/emily-dickinson,1
 books,blog/categories/books,1
-quotes,blog/categories/quotes,1
-jazz,blog/categories/jazz,1
-code and art,blog/categories/code-and-art,1
-Coding Freedom,blog/categories/coding-freedom,1
-open source,blog/categories/open-source,1
-E. Gabriella Coleman,blog/categories/e-gabriella-coleman,1
-hacker culture,blog/categories/hacker-culture,1
+culture,blog/categories/culture,1

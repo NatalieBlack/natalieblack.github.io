@@ -9,3 +9,23 @@ img.nanowrimo {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
+
+.album_img {
+    height: 200px;
+    border: 6px solid rgba(0, 39, 59, 0.35);
+    float: left;
+    margin-right: 8px;
+}
+
+div.album {
+   clear: both;
+   overflow: auto;
+   margin: 8px;
+   border: 1px solid rgba(0, 39, 59, 0.35);
+}
+
+div.other_albums img {
+   height: 225px;
+   margin: 1px;
+   border: 1px solid rgba(0, 39, 59, 0.35);
+}

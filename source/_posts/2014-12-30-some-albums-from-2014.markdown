@@ -6,6 +6,7 @@ comments: true
 categories: [music]
 ---
 In order of release date - not preference - here are some albums I enjoyed this year:
+<!--more-->
 <div class="album">
 <img class="album_img" src="/images/albums/fuck_off_get_free_we_pour_light_on_everything.jpg" alt="Fuck Off Get Free We Pour Light on Everything">
 <p><a href="http://en.wikipedia.org/wiki/Fuck_Off_Get_Free_We_Pour_Light_on_Everything">Fuck Off Get Free We Pour Light on Everything</a> by Thee Silver Mt. Zion Memorial Orchestra</p>

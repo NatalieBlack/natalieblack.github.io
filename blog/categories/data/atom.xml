@@ -4,7 +4,7 @@
   <title><![CDATA[Category: data | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/data/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2014-12-31T16:34:43-05:00</updated>
+  <updated>2015-03-15T19:50:07-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -18,13 +18,13 @@
     <link href="http://NatalieBlack.github.io/blog/2014/04/23/processing-sketches/"/>
     <updated>2014-04-23T20:11:43-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2014/04/23/processing-sketches</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/util.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
 <script>

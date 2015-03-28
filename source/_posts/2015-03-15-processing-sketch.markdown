@@ -12,7 +12,7 @@ categories: [art,code]
 Here are some interactive Processing sketches I made this week.  Click on the canvases to start them (and then keep clicking as the mood strikes you).
 
 ##Version 1
-<canvas id="pressure" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive.pde"> </canvas> 
+<canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive.pde"> </canvas> 
 
 <br/>
 <br/>
@@ -20,7 +20,7 @@ Here are some interactive Processing sketches I made this week.  Click on the ca
 <br/>
 
 ##Version 2
-<canvas id="pressure" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive_mixed_colours.pde"> </canvas> 
+<canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive_mixed_colours.pde"> </canvas> 
 
 
 I love lines!

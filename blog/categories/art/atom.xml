@@ -4,7 +4,7 @@
   <title><![CDATA[Category: art | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/art/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-03-29T14:19:09-04:00</updated>
+  <updated>2015-04-03T21:30:46-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches March 27-29]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/03/31/processing-sketches-march-27-29/"/>
+    <updated>2015-03-31T21:58:12-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/03/31/processing-sketches-march-27-29</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+
+
+<p>This weekend was brought to you by circles!</p>
+
+<p>As usual: click on the squares and just keep clicking.</p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/circles.pde"> </canvas></p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/circles2.pde"> </canvas></p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/rings.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Processing Sketches March 23-27]]></title>
@@ -27,7 +53,7 @@
 <script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
 
 
-<p>This batch of sketches started off with the egg shape from the <a href="https://processing.org/examples/compositeobjects.html">composite object example</a> on the Processing website.  Eggs are hilarious, especially when wobbling.</p>
+<p>This batch of sketches started off with the egg shape from the <a href="https://processing.org/examples/compositeobjects.html">composite object example</a> on the Processing website.  Fact: eggs are hilarious, especially when wobbling.</p>
 
 <p>As usual: click on the squares and just keep clicking!</p>
 

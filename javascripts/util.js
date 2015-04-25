@@ -18,3 +18,6 @@ $(window).load(function() {
 $(window).resize(function(){
     makeDiptych();
 });
+$(window).scroll(function() {
+    makeDiptych();
+});

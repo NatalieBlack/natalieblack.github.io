@@ -4,7 +4,7 @@
   <title><![CDATA[You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-04-25T16:39:10-04:00</updated>
+  <updated>2015-05-01T23:02:43-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches April 28-29]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-28-29/"/>
+    <updated>2015-05-01T17:23:12-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-28-29</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<p><canvas id="" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/flowers.pde"> </canvas>
+<canvas id="" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/blue.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches April 26-27]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-26-27/"/>
+    <updated>2015-05-01T17:22:45-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-26-27</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/spotlight.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/web2.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/web1.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Processing Sketches April 14-19]]></title>
@@ -27,6 +72,9 @@
 <script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
 
 
+
+
+<!--more-->
 
 
 <div class="diptych">
@@ -59,6 +107,9 @@
 
 
 
+<!--more-->
+
+
 <div class="diptych">
     <canvas id="A" class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diptychA.pde"> </canvas> 
 
@@ -81,6 +132,11 @@
 
 
 <script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+
+
+<!--more-->
 
 
 <h1>Two cursor-controller processing sketches</h1>
@@ -115,6 +171,9 @@
 
 <p>This weekend was brought to you by circles!</p>
 
+<!--more-->
+
+
 <p>As usual: click on the squares and just keep clicking.</p>
 
 <p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/rings.pde"> </canvas></p>
@@ -137,6 +196,9 @@
 
 
 <script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
 
 
 <p>This batch of sketches started off with the egg shape from the <a href="https://processing.org/examples/compositeobjects.html">composite object example</a> on the Processing website.  Fact: eggs are hilarious, especially when wobbling.</p>
@@ -165,6 +227,9 @@
 <script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
 
 
+<!--more-->
+
+
 <p>Click in the empty squares!  Click many times!</p>
 
 <p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_by_line.pde"> </canvas>
@@ -189,6 +254,9 @@
 
 
 <p>Here are some interactive Processing sketches I made this week.  Click on the canvases to start them (and then keep clicking as the mood strikes you).</p>
+
+<!--more-->
+
 
 <h2>Version 1</h2>
 
@@ -2263,7 +2331,7 @@ $(document).ready(function() {
 
 <p><a href="https://github.com/peter-ivanov87/celebration">celebration</a> by peter-ivanov87</p>
 
-<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#x6e;&#97;&#116;&#x61;&#x6c;&#x69;&#101;&#x76;&#105;&#x63;&#x74;&#x6f;&#x72;&#x69;&#97;&#98;&#x6c;&#x61;&#x63;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;&#46;">&#x6e;&#97;&#116;&#97;&#x6c;&#x69;&#101;&#118;&#x69;&#99;&#116;&#111;&#x72;&#x69;&#97;&#x62;&#108;&#97;&#99;&#x6b;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#46;</a></sub></p>
+<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x6e;&#97;&#116;&#97;&#108;&#105;&#x65;&#x76;&#x69;&#99;&#x74;&#x6f;&#x72;&#x69;&#x61;&#98;&#x6c;&#x61;&#99;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;&#x2e;">&#110;&#x61;&#x74;&#97;&#x6c;&#x69;&#101;&#x76;&#x69;&#99;&#116;&#111;&#x72;&#x69;&#x61;&#x62;&#108;&#97;&#x63;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;&#x2e;</a></sub></p>
 ]]></content>
   </entry>
   

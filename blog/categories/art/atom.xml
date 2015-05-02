@@ -4,7 +4,7 @@
   <title><![CDATA[Category: art | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/art/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-04-25T16:39:10-04:00</updated>
+  <updated>2015-05-01T23:02:46-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -14,19 +14,67 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Processing Sketches April 28-29]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-28-29/"/>
+    <updated>2015-05-01T17:23:12-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-28-29</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+
+
+<p><canvas id="" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/flowers.pde"> </canvas>
+<canvas id="" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/blue.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches April 26-27]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-26-27/"/>
+    <updated>2015-05-01T17:22:45-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-26-27</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/spotlight.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/web2.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/web1.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Processing Sketches April 14-19]]></title>
     <link href="http://NatalieBlack.github.io/blog/2015/04/25/processing-sketches-april-14-19/"/>
     <updated>2015-04-25T15:04:58-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/04/25/processing-sketches-april-14-19</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/util.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
+
+
+<!--more-->
 
 
 <div class="diptych">
@@ -48,15 +96,18 @@
     <link href="http://NatalieBlack.github.io/blog/2015/04/24/processing-diptych/"/>
     <updated>2015-04-24T19:46:11-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/04/24/processing-diptych</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/util.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
+
+
+<!--more-->
 
 
 <div class="diptych">
@@ -74,13 +125,18 @@
     <link href="http://NatalieBlack.github.io/blog/2015/04/09/interactive-processing-sketches/"/>
     <updated>2015-04-09T20:02:38-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/04/09/interactive-processing-sketches</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/util.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+
+
+
+
+<!--more-->
 
 
 <h1>Two cursor-controller processing sketches</h1>
@@ -96,58 +152,6 @@
 <p>Click to add more lines.  I recommend adding ALL THE LINES.</p>
 
 <p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/lines_love_you.pde"> </canvas></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Processing Sketches March 27-29]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2015/03/31/processing-sketches-march-27-29/"/>
-    <updated>2015-03-31T21:58:12-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2015/03/31/processing-sketches-march-27-29</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
-
-
-<script type="text/javascript" src="/javascripts/util.js"></script>
-
-
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
-
-
-<p>This weekend was brought to you by circles!</p>
-
-<p>As usual: click on the squares and just keep clicking.</p>
-
-<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/rings.pde"> </canvas></p>
-
-<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/circles.pde"> </canvas></p>
-
-<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/circles2.pde"> </canvas></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Processing Sketches March 23-27]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2015/03/29/processing-sketches-march-23-27/"/>
-    <updated>2015-03-29T13:49:01-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2015/03/29/processing-sketches-march-23-27</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
-
-
-<script type="text/javascript" src="/javascripts/util.js"></script>
-
-
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
-
-
-<p>This batch of sketches started off with the egg shape from the <a href="https://processing.org/examples/compositeobjects.html">composite object example</a> on the Processing website.  Fact: eggs are hilarious, especially when wobbling.</p>
-
-<p>As usual: click on the squares and just keep clicking!</p>
-
-<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/crazy_eggs.pde"> </canvas></p>
-
-<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/disco_eggs.pde"> </canvas></p>
-
-<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/wobble_blobs.pde"> </canvas></p>
 ]]></content>
   </entry>
   

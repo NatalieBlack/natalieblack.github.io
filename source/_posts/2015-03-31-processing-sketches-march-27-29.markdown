@@ -11,6 +11,7 @@ categories: [art,code]
 <script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 This weekend was brought to you by circles!
+<!--more-->
 
 As usual: click on the squares and just keep clicking.
 

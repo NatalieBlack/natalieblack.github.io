@@ -11,6 +11,7 @@ categories: [art,code]
 
 Here are some interactive Processing sketches I made this week.  Click on the canvases to start them (and then keep clicking as the mood strikes you).
 
+<!--more-->
 ##Version 1
 <canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive.pde"> </canvas> 
 

@@ -10,6 +10,7 @@ categories: [art,code]
 <script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 <script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
+<!--more-->
 <div class="diptych">
     <canvas id="A" class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diptychA.pde"> </canvas> 
 

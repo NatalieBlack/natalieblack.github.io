@@ -9,6 +9,7 @@ categories: [art,code]
 <script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 <script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 <script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+<!--more-->
 
 This batch of sketches started off with the egg shape from the [composite object example](https://processing.org/examples/compositeobjects.html) on the Processing website.  Fact: eggs are hilarious, especially when wobbling.
 

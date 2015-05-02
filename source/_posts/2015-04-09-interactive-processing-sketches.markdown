@@ -10,6 +10,7 @@ categories: [art,code]
 <script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 <script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
+<!--more-->
 #Two cursor-controller processing sketches
 ##One
 

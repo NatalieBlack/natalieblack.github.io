@@ -111,7 +111,7 @@ module Jekyll
         csv << ['tag','url','posts']
         self.categories.each do |cat|
           cat_url = File.join(self.config['category_dir'], cat.first.to_url)
-          csv << [cat.first, cat_url, cat.last.size]
+          csv << [cat.first, cat_url, [cat.last.size, 9].min]
         end
       end
     end

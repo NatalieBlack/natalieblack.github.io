@@ -4,7 +4,7 @@
   <title><![CDATA[Category: code | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-05-05T12:14:56-04:00</updated>
+  <updated>2015-06-24T22:25:29-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Backlog of Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/06/24/a-backlog-of-processing-sketches/"/>
+    <updated>2015-06-24T20:04:46-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/06/24/a-backlog-of-processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/feather.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/amazingspiky.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/leaf.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/peacocktail.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/waterfall.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal_Cs.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Processing Sketches April 28-29]]></title>
@@ -117,41 +144,6 @@
 
 </div>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Interactive Processing Sketches]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2015/04/09/interactive-processing-sketches/"/>
-    <updated>2015-04-09T20:02:38-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2015/04/09/interactive-processing-sketches</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
-
-
-<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
-
-
-<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
-
-
-
-
-<!--more-->
-
-
-<h1>Two cursor-controller processing sketches</h1>
-
-<h2>One</h2>
-
-<p>Click to start drawing with a different colour!</p>
-
-<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/cursor_lines.pde"> </canvas></p>
-
-<h2>Two</h2>
-
-<p>Click to add more lines.  I recommend adding ALL THE LINES.</p>
-
-<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/lines_love_you.pde"> </canvas></p>
 ]]></content>
   </entry>
   

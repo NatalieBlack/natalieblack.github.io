@@ -4,7 +4,7 @@
   <title><![CDATA[Category: code | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-06-24T22:25:29-04:00</updated>
+  <updated>2015-06-24T22:31:21-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -21,9 +21,6 @@
     <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
-
-
 <script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
@@ -31,12 +28,24 @@
 
 
 <p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/feather.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/amazingspiky.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/leaf.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/peacocktail.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/waterfall.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal_Cs.pde"> </canvas></p>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/feather.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/amazingspiky.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/leaf.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/peacocktail.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/waterfall.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal_Cs.pde"> </canvas></p>
 ]]></content>
   </entry>
   

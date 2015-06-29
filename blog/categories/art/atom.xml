@@ -4,7 +4,7 @@
   <title><![CDATA[Category: art | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/art/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-06-29T12:57:45-04:00</updated>
+  <updated>2015-06-29T12:59:03-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -27,9 +27,17 @@
 <!--more-->
 
 
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/tree.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/wave.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/crazynet.pde"> </canvas></p>
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/tree.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/wave.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/crazynet.pde"> </canvas></p>
 ]]></content>
   </entry>
   

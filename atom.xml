@@ -4,7 +4,7 @@
   <title><![CDATA[You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-06-28T21:59:06-04:00</updated>
+  <updated>2015-06-29T12:57:41-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Even More Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/06/28/even-more-processing-sketches/"/>
+    <updated>2015-06-28T23:10:21-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/06/28/even-more-processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/tree.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/wave.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/crazynet.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[More Processing Sketches]]></title>
@@ -2406,7 +2426,7 @@ $(document).ready(function() {
 
 <p><a href="https://github.com/peter-ivanov87/celebration">celebration</a> by peter-ivanov87</p>
 
-<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#97;&#x69;&#108;&#116;&#111;&#58;&#110;&#97;&#116;&#x61;&#x6c;&#105;&#101;&#x76;&#105;&#99;&#116;&#111;&#x72;&#x69;&#x61;&#x62;&#108;&#x61;&#99;&#107;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;&#x2e;">&#110;&#x61;&#116;&#x61;&#x6c;&#105;&#101;&#118;&#105;&#99;&#116;&#111;&#114;&#105;&#97;&#x62;&#108;&#x61;&#x63;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;&#46;</a></sub></p>
+<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#58;&#110;&#x61;&#116;&#x61;&#108;&#x69;&#x65;&#x76;&#x69;&#99;&#116;&#x6f;&#114;&#x69;&#97;&#98;&#x6c;&#97;&#x63;&#107;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;&#46;">&#x6e;&#x61;&#x74;&#x61;&#x6c;&#105;&#101;&#x76;&#x69;&#99;&#x74;&#111;&#114;&#105;&#97;&#98;&#x6c;&#x61;&#x63;&#107;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#46;</a></sub></p>
 ]]></content>
   </entry>
   

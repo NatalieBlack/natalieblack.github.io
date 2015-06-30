@@ -9,5 +9,7 @@ categories:  [art,code]
 <script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 <!--more-->
 <canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/paddles.pde"> </canvas> 
+<br/>
 <canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/spiky.pde"> </canvas> 
+<br/>
 <canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sharks.pde"> </canvas> 

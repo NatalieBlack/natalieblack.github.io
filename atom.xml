@@ -4,7 +4,7 @@
   <title><![CDATA[You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-06-30T13:18:28-04:00</updated>
+  <updated>2015-07-02T00:28:50-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Revived Processing Sketch]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch/"/>
+    <updated>2015-07-02T00:25:53-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p>Click the canvas to restart.</p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/colourleaves.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Even More Processing Sketches Part II]]></title>
@@ -2462,21 +2485,7 @@ $(document).ready(function() {
 
 <p><a href="https://github.com/peter-ivanov87/celebration">celebration</a> by peter-ivanov87</p>
 
-<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#x6e;&#97;&#x74;&#97;&#x6c;&#105;&#x65;&#118;&#105;&#x63;&#116;&#111;&#114;&#105;&#97;&#98;&#108;&#97;&#99;&#x6b;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;&#46;">&#x6e;&#97;&#x74;&#97;&#x6c;&#x69;&#x65;&#x76;&#x69;&#99;&#116;&#x6f;&#114;&#105;&#97;&#x62;&#108;&#97;&#x63;&#107;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;&#46;</a></sub></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Emily Dickinson should have tried Linux]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2014/02/19/emily-dickinson-should-have-tried-linux/"/>
-    <updated>2014-02-19T23:36:44-05:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2014/02/19/emily-dickinson-should-have-tried-linux</id>
-    <content type="html"><![CDATA[<p>Emily Dickinson, frustrated Microsoft user, describes the blue screen of death in poem 465:</p>
-
-<blockquote><p>&ldquo;With Blue &ndash; uncertain stumbling Buzz -<br/>
-Between the light &ndash; and me -<br/>
-And then the Windows failed &ndash; and then<br/>
-I could not see to see &ndash;  &rdquo; (13-16)</p></blockquote>
+<p><sub>* Self-appointed.  Feel free to challenge me for the title at <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#110;&#x61;&#x74;&#x61;&#x6c;&#x69;&#101;&#x76;&#105;&#x63;&#x74;&#111;&#x72;&#x69;&#97;&#98;&#x6c;&#97;&#99;&#x6b;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;&#x2e;">&#110;&#x61;&#x74;&#x61;&#108;&#105;&#x65;&#118;&#105;&#99;&#x74;&#111;&#x72;&#105;&#97;&#x62;&#x6c;&#97;&#99;&#107;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;&#46;</a></sub></p>
 ]]></content>
   </entry>
   

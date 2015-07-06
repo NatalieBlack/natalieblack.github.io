@@ -4,7 +4,7 @@
   <title><![CDATA[Category: art | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/art/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-07-02T00:28:52-04:00</updated>
+  <updated>2015-07-06T19:54:20-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Another Revived Processing Sketch]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/06/another-revived-processing-sketch/"/>
+    <updated>2015-07-06T19:48:56-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/06/another-revived-processing-sketch</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sketchyV.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Revived Processing Sketch]]></title>
@@ -128,42 +149,6 @@
 
 <p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/chubbydeco.pde"> </canvas>
 <canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/centrestar.pde"> </canvas></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Backlog of Processing Sketches]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2015/06/24/a-backlog-of-processing-sketches/"/>
-    <updated>2015-06-24T20:04:46-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2015/06/24/a-backlog-of-processing-sketches</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
-
-
-<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
-
-
-<!--more-->
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/feather.pde"> </canvas></p>
-
-<br/>
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/amazingspiky.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/leaf.pde"> </canvas></p>
-
-<br/>
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/peacocktail.pde"> </canvas>
-<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/waterfall.pde"> </canvas></p>
-
-<br/>
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal_Cs.pde"> </canvas></p>
 ]]></content>
   </entry>
   

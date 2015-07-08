@@ -4,7 +4,7 @@
   <title><![CDATA[You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-07-06T19:54:18-04:00</updated>
+  <updated>2015-07-08T17:07:33-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Processing Triptych]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/07/a-processing-triptych/"/>
+    <updated>2015-07-07T17:22:04-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/07/a-processing-triptych</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<br/>
+
+
+<div class="diptych">
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/iceburst.pde"> </canvas> 
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/snowburst.pde"> </canvas> 
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sunburst.pde"> </canvas> 
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Another Revived Processing Sketch]]></title>
@@ -2331,22 +2357,6 @@ $(document).ready(function() {
 <p><a href="#" id="scramble_link">show sketch</a></p>
 
 <p><canvas id="scramble" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/scramblenomouse.pde"> </canvas></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[An Attempt at Science]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2014/03/23/an-attempt-at-science/"/>
-    <updated>2014-03-23T17:21:08-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2014/03/23/an-attempt-at-science</id>
-    <content type="html"><![CDATA[<p>Last Saturday I spent the afternoon messing around with some open data sets using IPython notebook and pandas.</p>
-
-<!--more-->
-
-
-<p>The first data set came from the city of Toronto&rsquo;s open data <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9e56e03bb8d1e310VgnVCM10000071d60f89RCRD">portal</a>, and contained records of all the official heat warnings released by the city since 2001.  The second data set contained atmospheric pressure readings from smart phones throughout the city of Toronto.  I got this data through the developer API for <a href="http://pressurenet.io/">pressureNET</a>, a Toronto-based startup run by my friend <a href="http://jacobsheehy.com/">Jacob</a> and <a href="http://philippejones.com/">some</a> <a href="http://jaredkerim.com/">other</a> cool guys.  Knowing that atmospheric pressure and temperature are somehow related, I formed the hypothesis that there would be a correlation between the pressure readings and the occurrence of heat warnings.</p>
-
-<p>This <a href="http://nbviewer.ipython.org/gist/anonymous/137e0bd2a813decb1bfc">IPython notebook</a> shows how I went about testing my hypothesis.</p>
 ]]></content>
   </entry>
   

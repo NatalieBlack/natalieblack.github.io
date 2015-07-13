@@ -4,7 +4,7 @@
   <title><![CDATA[Category: code | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-07-08T17:07:35-04:00</updated>
+  <updated>2015-07-13T12:26:17-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches: The Marble Sessions]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/11/processing-sketches-the-marble-sessions/"/>
+    <updated>2015-07-11T17:36:13-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/11/processing-sketches-the-marble-sessions</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/marble_angular.pde"> </canvas>
+<canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/marble_sea.pde"> </canvas>
+<canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/marble_round.pde"> </canvas></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Processing Triptych]]></title>
@@ -108,34 +131,6 @@
 
 
 <p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sharks.pde"> </canvas></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Even More Processing Sketches]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2015/06/28/even-more-processing-sketches/"/>
-    <updated>2015-06-28T23:10:21-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2015/06/28/even-more-processing-sketches</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
-
-
-<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
-
-
-<!--more-->
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/tree.pde"> </canvas></p>
-
-<br/>
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/wave.pde"> </canvas></p>
-
-<br/>
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/crazynet.pde"> </canvas></p>
 ]]></content>
   </entry>
   

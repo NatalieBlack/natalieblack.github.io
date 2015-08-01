@@ -1065,12 +1065,3 @@ widows:3;
 h2,h3 {
 page-break-after:avoid;
 }
-
-.diptychPanel {
-    display: inline-block;
-}
-
-.diptych p{
-    display: inline-block;
-}
-

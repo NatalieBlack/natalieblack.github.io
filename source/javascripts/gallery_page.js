@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#crazy_seaweed').slick({
+    $('.gallery_page').slick({
         dots: true,
         arrows: true,
         draggable: false,

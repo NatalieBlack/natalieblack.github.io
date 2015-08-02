@@ -88,10 +88,18 @@ div.gallery {
 }
 
 //**************************************
-//CRAZY SEAWEED
+//GALLERY PAGE
 //**************************************
+$gallery_page_bg: rgb(245,245,245);
+$gallery_page_accent: #CCC;
 
-div#crazy_seaweed{
+#gallery_page{
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    width: 70%;
+    height: 90%;
+    background-color: $gallery_page_bg;
     ul.slick-dots{
         width: 100%;
         margin: 0px auto;
@@ -99,15 +107,14 @@ div#crazy_seaweed{
         position: relative;
     }
     .slick-prev:before, .slick-next:before {
-        color: #CCC;
+        color: $gallery_page_accent;
     }
-    background-color: rgb(245,245,245);
     canvas {
         padding: 20px;
-        border: 1px solid #CCC;
+        border: 1px solid $gallery_page_accent;
     }
 }
 
-body#b_crazy_seaweed{
-    background-color: rgb(245,245,245);
+body.gallery_page{
+    background-color: $gallery_page_bg;
 }

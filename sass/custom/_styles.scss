@@ -97,7 +97,6 @@ $gallery_page_accent: #CCC;
     text-align: center;
     margin: 0px auto;
     padding: 10px;
-    width: 70%;
     height: 90%;
     background-color: $gallery_page_bg;
     ul.slick-dots{
@@ -112,9 +111,11 @@ $gallery_page_accent: #CCC;
     canvas {
         padding: 20px;
         border: 1px solid $gallery_page_accent;
+        margin: 0px auto;
+        text-align: center;
     }
 }
 
-body.gallery_page{
+body#gallery_page{
     background-color: $gallery_page_bg;
 }

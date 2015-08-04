@@ -119,3 +119,12 @@ $gallery_page_accent: #CCC;
 body#gallery_page{
     background-color: $gallery_page_bg;
 }
+//***********************************
+//CIRCLES
+//***********************************
+body#gallery_page_circles{
+    background-color: #F1F1FF;
+    #gallery_page{
+        background-color: #F1F1FF;
+    }
+}

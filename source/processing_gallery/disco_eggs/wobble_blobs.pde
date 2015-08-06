@@ -20,6 +20,7 @@ void setup() {
   imageMode(CENTER);
   noStroke();
   background(BGCOLOUR);
+  text("Click!",WINDOWSIZE/2,WINDOWSIZE/2);
   i = 0;
   col = 0;
   row = 0;

@@ -16,6 +16,8 @@ footer: true
     .portal
       %a{href: "{{ root_url }}/processing_gallery/#{fname}/page.html"}
         .overlay
+          %p
+            view
         %img{src: File.join(base_path, fname, 'thumbnail.png')}
 
 %script{src: '/javascripts/gallery.js'}

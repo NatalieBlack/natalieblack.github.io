@@ -1,0 +1,21 @@
+---
+layout: gallery 
+body_id: "gallery"
+title: "gallery"
+date: 2015-07-16 11:04
+comments: true
+sharing: true
+footer: true
+---
+
+!!!
+.gallery
+  - base_path = '/processing_gallery'
+  - paths = (Dir.entries(File.join('public', base_path)) - ['.','..'])
+  - paths.each do |fname|
+    .portal
+      %a{href: "{{ root_url }}/processing_gallery/#{fname}/page.html"}
+        .overlay
+        %img{src: File.join(base_path, fname, 'thumbnail.png')}
+
+%script{src: '/javascripts/gallery.js'}

@@ -7,9 +7,10 @@ void setup() {
   SIZE = 495;
   size(SIZE, SIZE);
   imageMode(CENTER);
-  noStroke();
   background(225,225,255);
-  lines = loadStrings("http://www.gutenberg.org/cache/epub/1342/pg1342.txt");
+  fill(0);
+  text("click!", SIZE/2, SIZE/2);
+  lines = loadStrings("/data/pg1342.txt");
   i = 0;
   start = false;
 }
@@ -18,6 +19,7 @@ void mousePressed(){
   if(start){
     start = false;
   }else {
+    background(225,225,255);
     start = true;
   }
 }

@@ -7,8 +7,10 @@ ArrayList<EggRing> eggs;
 int EGGSIZE;
 int BGCOLOUR;
 float TILT;
+boolean started;
 
 void setup() {
+  started = false;
   WINDOWSIZE = 495;
   EGGSIZE = 80;
   COLSNUM = 3;
@@ -19,6 +21,7 @@ void setup() {
   MARGIN = (WINDOWSIZE-(BOXSIZE*COLSNUM))/(COLSNUM+1);
   imageMode(CENTER);
   background(BGCOLOUR);
+  text("Click to add lines!",WINDOWSIZE*2/5,WINDOWSIZE/2);
   i = 0;
   col = 0;
   row = 0;
@@ -31,16 +34,21 @@ void setup() {
 }
 
 void mousePressed() {
-    minx = (minx + BOXSIZE + MARGIN) % (WINDOWSIZE-MARGIN);
-    col = (col + 1);
-    row = col/COLSNUM;
-    miny = ((BOXSIZE + MARGIN)*(row)) + 30;
-    COLOUR = getNextColour();
-    int a = minx;
-    int b = miny + 1;
-   
-    stroke(COLOUR);
-    drawLine(a,b);
+    if(started){
+        minx = (minx + BOXSIZE + MARGIN) % (WINDOWSIZE-MARGIN);
+        col = (col + 1);
+        row = col/COLSNUM;
+        miny = ((BOXSIZE + MARGIN)*(row)) + 30;
+        COLOUR = getNextColour();
+        int a = minx;
+        int b = miny + 1;
+       
+        stroke(COLOUR);
+        drawLine(a,b);
+    } else {
+      background(BGCOLOUR);
+      started = true;
+    }
 }     
 
 color getNextColour(){
@@ -49,11 +57,13 @@ color getNextColour(){
 }
 
 void draw() { 
-  background(BGCOLOUR);
+    if(started){
+      background(BGCOLOUR);
 
-  for(int e = 0; e < eggs.size(); e++){
-    eggs.get(e).transmit();
-  }
+      for(int e = 0; e < eggs.size(); e++){
+        eggs.get(e).transmit();
+      }
+    }
 }
 
 void drawLine(int x1, int y1){

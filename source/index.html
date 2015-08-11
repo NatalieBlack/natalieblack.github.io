@@ -160,16 +160,7 @@
               .text('Natalie Black');
 
             function gTextTransform(d) {
-                //rotate(30) 
-                rads = d.endAngle - d.startAngle;
-                if(rads < 0.28){
-                    degs = d.startAngle * (180/Math.PI);
-                    console.log(degs);
-                }else{
-                    degs = 0;
-                }
-                //degs = rads * (180/Math.PI);
-                return "translate(" + arc.centroid(d) + ")";// rotate(" + degs + ")";
+                return "translate(" + arc.centroid(d) + ")";
             }
 
             function centerClick() {

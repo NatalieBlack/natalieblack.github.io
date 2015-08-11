@@ -4,7 +4,7 @@
   <title><![CDATA[Category: art | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/art/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-08-04T00:42:56-04:00</updated>
+  <updated>2015-08-10T20:43:23-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[New Gallery Page]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/08/09/new-gallery-page/"/>
+    <updated>2015-08-09T23:57:32-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/08/09/new-gallery-page</id>
+    <content type="html"><![CDATA[<p>I added a spiffy new <a href="{{root_url}}/gallery/index.html">gallery page</a> to better display my growing collection of Processing sketches!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Warm Processing Sketch]]></title>
@@ -100,29 +109,6 @@
 
 
 <p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sketchyV.pde"> </canvas></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Revived Processing Sketch]]></title>
-    <link href="http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch/"/>
-    <updated>2015-07-02T00:25:53-04:00</updated>
-    <id>http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
-
-
-<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
-
-
-<!--more-->
-
-
-<p>Click the canvas to restart.</p>
-
-<br/>
-
-
-<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/colourleaves.pde"> </canvas></p>
 ]]></content>
   </entry>
   

@@ -10,11 +10,11 @@ footer: true
 
 !!!
 .gallery
-  - base_path = '/processing_gallery'
+  - base_path = '/gallery/processing_gallery'
   - paths = (Dir.entries(File.join('public', base_path)) - ['.','..'])
   - paths.each do |fname|
     .portal
-      %a{href: "{{ root_url }}/processing_gallery/#{fname}/page.html"}
+      %a{href: "{{ root_url }}/gallery/processing_gallery/#{fname}/page.html"}
         .overlay
           %p
             view

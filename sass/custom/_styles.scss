@@ -1,0 +1,138 @@
+// Add your custom styling here.
+img.nanowrimo {
+    height: 62px;
+    padding: 2px;
+}
+
+.navbar ul li a.nano {
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.album_img {
+    height: 200px;
+    border: 6px solid rgba(0, 39, 59, 0.35);
+    float: left;
+    margin-right: 8px;
+}
+
+div.album {
+   clear: both;
+   overflow: auto;
+   margin: 8px;
+   border: 1px solid rgba(0, 39, 59, 0.35);
+}
+
+div.other_albums img {
+   height: 225px;
+   margin: 1px;
+   border: 1px solid rgba(0, 39, 59, 0.35);
+}
+
+.diptychPanel {
+    display: inline-block;
+}
+
+.diptych p{
+    display: inline-block;
+}
+
+//**************************************
+//GALLARY
+//**************************************
+$bg-colour: #B1B2BA;
+$centre-bg-colour: #DCDCDE;
+.portal{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 5px 2px;
+    border: 1px solid $bg-colour;
+}
+
+.portal img {
+    width: 250px;
+    height: 250px;
+    margin: none;
+    padding: none;
+}
+
+.portal .overlay {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin: 5px;
+    top:0px;
+    left:0px;
+    display: none;
+    text-align: center;
+    color: white;
+    p {
+        position: relative;
+        font-size: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.portal:hover .overlay {
+    display:block;
+    background-color:$bg-colour;
+    z-index: 1;
+    opacity:0.75;
+}
+
+body#gallery {
+    background: $bg-colour;
+}
+
+div.gallery {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: $centre-bg-colour;
+    width: 70%;
+    height: 90%;
+}
+
+//**************************************
+//GALLERY PAGE
+//**************************************
+$gallery_page_bg: rgb(245,245,245);
+$gallery_page_accent: #CCC;
+
+#gallery_page{
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    height: 90%;
+    background-color: $gallery_page_bg;
+    ul.slick-dots{
+        width: 100%;
+        margin: 0px auto;
+        bottom: auto;
+        position: relative;
+    }
+    .slick-prev:before, .slick-next:before {
+        color: $gallery_page_accent;
+    }
+    canvas {
+        padding: 20px;
+        border: 1px solid $gallery_page_accent;
+        margin: 0px auto;
+        text-align: center;
+    }
+}
+
+body#gallery_page{
+    background-color: $gallery_page_bg;
+}
+//***********************************
+//CIRCLES
+//***********************************
+body#gallery_page_circles{
+    background-color: #F1F1FF;
+    #gallery_page{
+        background-color: #F1F1FF;
+    }
+}

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[You'll know Her - by Her Blog -]]></title>
+  <link href="http://NatalieBlack.github.io/atom.xml" rel="self"/>
+  <link href="http://NatalieBlack.github.io/"/>
+  <updated>2015-08-18T15:07:44-04:00</updated>
+  <id>http://NatalieBlack.github.io/</id>
+  <author>
+    <name><![CDATA[Natalie Black]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New Gallery Page]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/08/09/new-gallery-page/"/>
+    <updated>2015-08-09T23:57:32-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/08/09/new-gallery-page</id>
+    <content type="html"><![CDATA[<p>I added a spiffy new <a href="http://NatalieBlack.github.io/gallery/index.html">gallery page</a> to better display my growing collection of Processing sketches!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Warm Processing Sketch]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/08/04/a-warm-processing-sketch/"/>
+    <updated>2015-08-04T00:35:48-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/08/04/a-warm-processing-sketch</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<!--more-->
+
+
+<p>This processing sketch features a surprise visit from our old friend, the colour red.</p>
+
+<p><canvas status="off" width="640" height="100" data-processing-sources="/sketches/warm_stained_glass.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches: The Marble Sessions]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/11/processing-sketches-the-marble-sessions/"/>
+    <updated>2015-07-11T17:36:13-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/11/processing-sketches-the-marble-sessions</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/marble_angular.pde"> </canvas>
+<canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/marble_sea.pde"> </canvas>
+<canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/marble_round.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Processing Triptych]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/07/a-processing-triptych/"/>
+    <updated>2015-07-07T17:22:04-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/07/a-processing-triptych</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<br/>
+
+
+<div class="diptych">
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/iceburst.pde"> </canvas> 
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/snowburst.pde"> </canvas> 
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sunburst.pde"> </canvas> 
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Another Revived Processing Sketch]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/06/another-revived-processing-sketch/"/>
+    <updated>2015-07-06T19:48:56-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/06/another-revived-processing-sketch</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sketchyV.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Revived Processing Sketch]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch/"/>
+    <updated>2015-07-02T00:25:53-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p>Click the canvas to restart.</p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/colourleaves.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Even More Processing Sketches Part II]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/06/29/even-more-processing-sketches-part-ii/"/>
+    <updated>2015-06-29T17:49:47-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/06/29/even-more-processing-sketches-part-ii</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/paddles.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/spiky.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/sharks.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Even More Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/06/28/even-more-processing-sketches/"/>
+    <updated>2015-06-28T23:10:21-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/06/28/even-more-processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/tree.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/wave.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/crazynet.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/06/27/more-processing-sketches/"/>
+    <updated>2015-06-27T19:28:55-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/06/27/more-processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p>Click inside the squares to restart.</p>
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/centreshapes.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonaltribal.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/crisscrossrepeat.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/spikycorner.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/Ds.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/origami.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/chubbydeco.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/centrestar.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Backlog of Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/06/24/a-backlog-of-processing-sketches/"/>
+    <updated>2015-06-24T20:04:46-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/06/24/a-backlog-of-processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/feather.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/amazingspiky.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/leaf.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/peacocktail.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/waterfall.pde"> </canvas></p>
+
+<br/>
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diagonal_Cs.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches April 28-29]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-28-29/"/>
+    <updated>2015-05-01T17:23:12-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-28-29</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<p><canvas id="" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/flowers.pde"> </canvas>
+<canvas id="" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/blue.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches April 26-27]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-26-27/"/>
+    <updated>2015-05-01T17:22:45-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/05/01/processing-sketches-april-26-27</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p><canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/spotlight.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/web2.pde"> </canvas>
+<canvas status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/web1.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches April 14-19]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/04/25/processing-sketches-april-14-19/"/>
+    <updated>2015-04-25T15:04:58-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/04/25/processing-sketches-april-14-19</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+
+
+<!--more-->
+
+
+<div class="diptych">
+    <canvas  class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/airyclick.pde"> </canvas> 
+    <canvas  class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/airyautomatic.pde"> </canvas> 
+</div>
+
+
+<div class="diptych">
+    <canvas  class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/water.pde"> </canvas> 
+    <canvas  class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/stainedglass.pde"> </canvas> 
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Processing Diptych]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/04/24/processing-diptych/"/>
+    <updated>2015-04-24T19:46:11-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/04/24/processing-diptych</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+
+
+<!--more-->
+
+
+<div class="diptych">
+    <canvas id="A" class="diptychPanel" status="off" style="border:1px solid #000000;" data-processing-sources="/sketches/diptychA.pde"> </canvas> 
+
+    <canvas id="B" class="diptychPanel" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/diptychB.pde"> </canvas> 
+
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Interactive Processing Sketches]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/04/09/interactive-processing-sketches/"/>
+    <updated>2015-04-09T20:02:38-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/04/09/interactive-processing-sketches</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+
+
+<!--more-->
+
+
+<h1>Two cursor-controller processing sketches</h1>
+
+<h2>One</h2>
+
+<p>Click to start drawing with a different colour!</p>
+
+<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/cursor_lines.pde"> </canvas></p>
+
+<h2>Two</h2>
+
+<p>Click to add more lines.  I recommend adding ALL THE LINES.</p>
+
+<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/lines_love_you.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches March 27-29]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/03/31/processing-sketches-march-27-29/"/>
+    <updated>2015-03-31T21:58:12-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/03/31/processing-sketches-march-27-29</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<p>This weekend was brought to you by circles!</p>
+
+<!--more-->
+
+
+<p>As usual: click on the squares and just keep clicking.</p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/rings.pde"> </canvas></p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/circles.pde"> </canvas></p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/circles2.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches March 23-27]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/03/29/processing-sketches-march-23-27/"/>
+    <updated>2015-03-29T13:49:01-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/03/29/processing-sketches-march-23-27</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p>This batch of sketches started off with the egg shape from the <a href="https://processing.org/examples/compositeobjects.html">composite object example</a> on the Processing website.  Fact: eggs are hilarious, especially when wobbling.</p>
+
+<p>As usual: click on the squares and just keep clicking!</p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/crazy_eggs.pde"> </canvas></p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/disco_eggs.pde"> </canvas></p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/wobble_blobs.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches March 15-19]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/03/19/processing-sketches-march-15-19/"/>
+    <updated>2015-03-19T21:39:23-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/03/19/processing-sketches-march-15-19</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<!--more-->
+
+
+<p>Click in the empty squares!  Click many times!</p>
+
+<p><canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_by_line.pde"> </canvas>
+<canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_by_line_large.pde"> </canvas>
+<canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/black_white_latin_lines.pde"> </canvas>
+<canvas id="" status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/turquoise_lines.pde"> </canvas></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Sketches Part II]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2015/03/15/processing-sketch/"/>
+    <updated>2015-03-15T14:32:30-04:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2015/03/15/processing-sketch</id>
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/processing.min.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/util.js"></script>
+
+
+<script type="text/javascript" src="http://NatalieBlack.github.io/javascripts/libs/jquery.min.js"></script>
+
+
+<p>Here are some interactive Processing sketches I made this week.  Click on the canvases to start them (and then keep clicking as the mood strikes you).</p>
+
+<!--more-->
+
+
+<h2>Version 1</h2>
+
+<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive.pde"> </canvas></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<h2>Version 2</h2>
+
+<p><canvas status="off" width="640" height="100" style="border:1px solid #000000;" data-processing-sources="/sketches/line_boxes_interactive_mixed_colours.pde"> </canvas></p>
+
+<p>I love lines!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Some Albums from 2014]]></title>
+    <link href="http://NatalieBlack.github.io/blog/2014/12/30/some-albums-from-2014/"/>
+    <updated>2014-12-30T13:39:40-05:00</updated>
+    <id>http://NatalieBlack.github.io/blog/2014/12/30/some-albums-from-2014</id>
+    <content type="html"><![CDATA[<p>In order of release date &ndash; not preference &ndash; here are some albums I enjoyed this year:</p>
+
+<!--more-->
+
+
+<div class="album">
+<img class="album_img" src="http://NatalieBlack.github.io/images/albums/fuck_off_get_free_we_pour_light_on_everything.jpg" alt="Fuck Off Get Free We Pour Light on Everything">
+<p><a href="http://en.wikipedia.org/wiki/Fuck_Off_Get_Free_We_Pour_Light_on_Everything">Fuck Off Get Free We Pour Light on Everything</a> by Thee Silver Mt. Zion Memorial Orchestra</p>
+<p><strong>Favourite Track: </strong>What We Loved Was Not Enough</p>
+</div>
+
+
+
+
+<div class="album">
+<p><img class="album_img" alt="Darlings" src="http://NatalieBlack.github.io/images/albums/darlings.jpg" ></p>
+<p><a href="http://en.wikipedia.org/wiki/Darlings_%28Kevin_Drew_album%29">Darlings</a> by Kevin Drew</p>
+<p><strong>Rating: </strong>Good</p>
+<p><strong>Favourite Track: </strong>First in Line</p>
+<p><strong>Comments: </strong>I get excited when my favourite coffee shop plays this.</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="Education, Education, Education & War" src="http://NatalieBlack.github.io/images/albums/education_education_education_and_war.jpg" ></p>
+<p><a href="http://en.wikipedia.org/wiki/Education,_Education,_Education_%26_War">Education, Education, Education & War</a> by Kaiser Chiefs</p>
+<p><strong>Rating: </strong>Hey, it&#8217;s more of this thing I like</p>
+<p><strong>Comments: </strong>I got a lot more into Kaiser Chiefs in general shortly before this album came out.  This is one of the few albums on this list that I didn&#8217;t/won&#8217;t get to experience live and that&#8217;s a shame.</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="Hang on to Each Other EP" src="http://NatalieBlack.github.io/images/albums/hang_on_to_each_other.jpg" ></p>
+<p><a href="http://en.wikipedia.org/wiki/Hang_On_to_Each_Other">Hang On to Each Other</a> by Thee Silver Mt. Zion Memorial Orchestra</p>
+<p><strong>Comments: </strong>The only appropriate reaction to a collaboration between TSMZMO and Ariel Engle is excitement.</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="Heights" src="http://NatalieBlack.github.io/images/albums/heights.jpg" ></p>
+<p>Heights by <a href="http://www.thebeachesband.com/">The Beaches</a></p>
+<p><strong>Rating: </strong>Exceeded expectations</p>
+<p><strong>Favourite Track: </strong>Little Pieces</p>
+<p><strong>Comments: </strong>Despite The Beaches playing at more than one festival I attended this year, I was unaware of them until I saw they were going to be one of the opening acts at the Mother Mother show I went to last month.  I never have high expectations from opening acts but after checking out this EP I found myself really looking forward to their set.  Whether live or recorded, this band doesn&#8217;t disappoint!</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="In Conflict" src="http://NatalieBlack.github.io/images/albums/in_conflict.jpg" ></p>
+
+<p><a href="http://en.wikipedia.org/wiki/In_Conflict">In Conflict</a> by Owen Pallett</p>
+<p><strong>Rating: </strong>♥ I couldn&#8217;t stop listening to it</p>
+<p><strong>Favourite Tracks: </strong>On a Path, Song for Five & Six</p>
+<p><strong>Comments: </strong>If I was forced to pick a favourite from the year this might be it.</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="Music For Heart and Breath" src="http://NatalieBlack.github.io/images/albums/music_for_heart_and_breath.jpg">
+<p>Music for Heart and Breath by <a href="http://en.wikipedia.org/wiki/Richard_Reed_Parry">Richard Reed Parry</a></p>
+<p><strong>Rating: </strong>Super cool and even more so when it&#8217;s live</p>
+</div>
+
+
+<div class="album"><p><img class="album_img" alt="They Want My Soul" src="http://NatalieBlack.github.io/images/albums/they_want_my_soul.jpg" ></p>
+
+<p><a href="http://en.wikipedia.org/wiki/They_Want_My_Soul">They Want My Soul</a> by Spoon</p>
+<p><strong>Rating: </strong>♥ Expectations exceeded; I couldn&#8217;t stop listening to it</p>
+<p><strong>Favourite Track: </strong>Let Me Be Mine</p>
+<p><strong>Comments: </strong>I&#8217;ve never been a devout Spoon fan before, so I was surprised by how much I loved this album.</p>
+</div>
+
+
+<div class="album"><p><img class="album_img" alt="El Pintor" src="http://NatalieBlack.github.io/images/albums/el_pintor.jpg" ></p>
+<p><a href="http://en.wikipedia.org/wiki/El_Pintor_%28album%29">El Pintor</a> by Interpol</p>
+<p><strong>Rating: </strong>A bit hit or miss</p>
+<p><strong>Favourite Track: </strong>Ancient Ways, Tidal Wave</p>
+</div>
+
+
+<div class="album"><p><img class="album_img" alt="City Wrecker" src="http://NatalieBlack.github.io/images/albums/city_wrecker.jpg" ></p>
+<p>City Wrecker EP by <a href="http://en.wikipedia.org/wiki/Spencer_Krug">Moonface</a></p>
+<p><strong>Rating: </strong>Hey, it&#8217;s more of this thing I love</p> 
+<p><strong>Comments: </strong>I was pretty excited about this release based on how obsessed I was/am with Moonface&#8217;s previous album.  I wouldn&#8217;t say I love City Wrecker as much as Julia With Blue Jeans On, but that would have been a feat.  This is still great and haunting music.</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="We Loved Her Dearly" src="http://NatalieBlack.github.io/images/albums/we_loved_her_dearly.jpg" ></p>
+<p>We Loved Her Dearly by <a href="http://www.oncloud69.com/">Lowell</a></p>
+<p><strong>Rating: </strong>A bit hit or miss</p>
+<p><strong>Favourite Track: </strong>Cloud 69</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="Very Good Bad Thing" src="http://NatalieBlack.github.io/images/albums/very_good_bad_thing.jpg" ></p>
+<p><a href="http://en.wikipedia.org/wiki/Very_Good_Bad_Thing">Very Good Bad Thing</a> by Mother Mother</p>
+<p><strong>Rating: </strong>Not bad, but disappointing</p>
+<p><strong>Favourite Track: </strong>Get Out the Way</p>
+</div>
+
+
+
+
+<div class="album"><p><img class="album_img" alt="Bury Me at Makeout Creek" src="http://NatalieBlack.github.io/images/albums/bury_me_at_makeout_creek.jpg" ></p>
+<p>Bury Me at Makeout Creek by <a href="http://mitski.com/">Mitski</a></p>
+<p><strong>Rating: </strong>♥ I still can&#8217;t stop listening to it</p>
+<p><strong>Favourite Track: </strong>I Don&#8217;t Smoke</p>
+<p><strong>Comments: </strong>This is my current favourite thing.</p>
+</div>
+
+
+<div class="album"><p><img class="album_img" alt="Seeds" src="http://NatalieBlack.github.io/images/albums/seeds.jpg" ></p>
+<p><a href="http://en.wikipedia.org/wiki/Seeds_%28TV_on_the_Radio_album%29">Seeds</a> by TV on the Radio</p>
+<p><strong>Rating: </strong>Hey, it&#8217;s more of this thing I like</p>
+<p><strong>Comments: </strong>I put off listening to this album until this week because I was worried it would make me regret not going to the show TV on the Radio played here last month.  I supposed it&#8217;s both good and bad news that finally listening to it didn&#8217;t make me feel that way, but I also feel like I&#8217;m still just getting to know the album.</p>
+</div>
+
+
+<p>Here are some other albums that I discovered and subsequently listened to a lot in the last year, despite them having existed for longer that that:</p>
+
+<div class="other_albums">
+<a href="http://en.wikipedia.org/wiki/The_Bones_of_What_You_Believe"><img src="http://NatalieBlack.github.io/images/albums/the_bones_of_what_you_believe.png" alt="The Bones of What You Believe"></a>
+<a href="http://en.wikipedia.org/wiki/The_Future_Is_Medieval"><img src="http://NatalieBlack.github.io/images/albums/the_future_is_medieval.jpg" alt="The Future is Medieval"></a>
+<a href="http://en.wikipedia.org/wiki/Off_with_Their_Heads_%28album%29"><img src="http://NatalieBlack.github.io/images/albums/off_with_their_heads.jpg" alt="Off With Their Heads"></a>
+<a href="http://en.wikipedia.org/wiki/Tournament_of_Hearts_%28album%29"><img src="http://NatalieBlack.github.io/images/albums/tournament_of_hearts.jpg" alt="Tournament of Hearts"></a>
+<a href="http://en.wikipedia.org/wiki/Shine_a_Light_%28Constantines_album%29"><img src="http://NatalieBlack.github.io/images/albums/shine_a_light.jpg" alt="Shine a Light"></a>
+<a href="http://en.wikipedia.org/wiki/Gorilla_Manor"><img src="http://NatalieBlack.github.io/images/albums/gorilla_manor.jpg" alt="Gorilla Manor"></a>
+<a href=""><img src="http://NatalieBlack.github.io/images/albums/days_are_gone.png" alt="Days Are Gone"></a>
+<a href="http://en.wikipedia.org/wiki/Repave"><img src="http://NatalieBlack.github.io/images/albums/repave.jpg" alt="Repave"></a>
+<a href="http://foxtrott.bandcamp.com/"><img src="http://NatalieBlack.github.io/images/albums/shields.jpg" alt="Shields EP"></a>
+<a href="http://en.wikipedia.org/wiki/Roomful_of_Teeth"><img src="http://NatalieBlack.github.io/images/albums/roomful_of_teeth.jpg" alt="Roomful of Teeth"></a>
+<a href="http://en.wikipedia.org/wiki/Mounties_%28band%29"><img src="http://NatalieBlack.github.io/images/albums/thrash_rock_legacy.jpg" alt="Thrash Rock Legacy"></a>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: code | You'll know Her - by Her Blog -]]></title>
   <link href="http://NatalieBlack.github.io/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://NatalieBlack.github.io/"/>
-  <updated>2015-08-18T16:11:32-04:00</updated>
+  <updated>2015-08-18T17:05:07-04:00</updated>
   <id>http://NatalieBlack.github.io/</id>
   <author>
     <name><![CDATA[Natalie Black]]></name>
@@ -18,10 +18,10 @@
     <link href="http://NatalieBlack.github.io/blog/2015/08/04/a-warm-processing-sketch/"/>
     <updated>2015-08-04T00:35:48-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/08/04/a-warm-processing-sketch</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/util.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 
 
 <!--more-->
@@ -38,13 +38,13 @@
     <link href="http://NatalieBlack.github.io/blog/2015/07/11/processing-sketches-the-marble-sessions/"/>
     <updated>2015-07-11T17:36:13-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/07/11/processing-sketches-the-marble-sessions</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/util.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/util.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
 <!--more-->
@@ -61,10 +61,10 @@
     <link href="http://NatalieBlack.github.io/blog/2015/07/07/a-processing-triptych/"/>
     <updated>2015-07-07T17:22:04-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/07/07/a-processing-triptych</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
 <!--more-->
@@ -87,10 +87,10 @@
     <link href="http://NatalieBlack.github.io/blog/2015/07/06/another-revived-processing-sketch/"/>
     <updated>2015-07-06T19:48:56-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/07/06/another-revived-processing-sketch</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
 <!--more-->
@@ -108,10 +108,10 @@
     <link href="http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch/"/>
     <updated>2015-07-02T00:25:53-04:00</updated>
     <id>http://NatalieBlack.github.io/blog/2015/07/02/a-revived-processing-sketch</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="/javascripts/processing.min.js"></script>
+    <content type="html"><![CDATA[<script type="text/javascript" src="{{ root_url }}/javascripts/processing.min.js"></script>
 
 
-<script type="text/javascript" src="/javascripts/libs/jquery.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/libs/jquery.min.js"></script>
 
 
 <!--more-->

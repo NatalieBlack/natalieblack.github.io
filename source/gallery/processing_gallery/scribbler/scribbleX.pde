@@ -36,7 +36,7 @@ class Scribbler {
 
 
 void setup() {
-  SIZE = 400;
+  SIZE = 500;
   frameRate(25);
   size(SIZE, SIZE);
   background(70);

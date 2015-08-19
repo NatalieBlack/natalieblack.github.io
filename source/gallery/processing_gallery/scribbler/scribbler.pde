@@ -30,7 +30,7 @@ class Scribbler {
 }
 
 void setup() {
-  SIZE = 400;
+  SIZE = 500;
   size(SIZE, SIZE);
   background(70);
   strokeWeight(3);

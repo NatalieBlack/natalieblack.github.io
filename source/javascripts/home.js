@@ -1,4 +1,6 @@
 $(document).on('ready page:load', function(){
+
+
     var w = window;
     var width = w.innerWidth * 0.96,
         height = w.innerHeight * 0.96,
@@ -91,10 +93,19 @@ $(document).on('ready page:load', function(){
           .style("fill", function(d) { return color(d.data.tag); });
 
 
-      g.append("foreignObject")
-          .style("width", (outerR - innerR - 200) + "px")
+      if(browser() === 'Chrome'){
+        g.append("foreignObject")
+            .style("width", (outerR - innerR - 100) + "px")
+            .attr("transform", function(d) { return gTextTransform(d); })
+            .text(function(d) { return d.data.tag; });
+      } else {
+         g.append("text")
+          .attr('class','stupid-firefox')
           .attr("transform", function(d) { return gTextTransform(d); })
+          .style("font-size", "0.75rem")
           .text(function(d) { return d.data.tag; });
+
+      }
 
 
       svg.append("text")
@@ -102,11 +113,11 @@ $(document).on('ready page:load', function(){
       .text('Natalie Black');
 
     function gTextTransform(d) {
-        return "translate(" + arc.centroid(d) + ")" + translate(d) + "rotate(" + (angle(d) ) + ")" ;
+       return "translate(" + arc.centroid(d) + ") " + translate(d) + " rotate(" + (angle(d) ) + ")" ;
     }
 
     function translate(d) {
-        if(topOrBottom(d) || wedgeIsLarge(d)){
+        if(browser() === 'Chrome' && (topOrBottom(d) || wedgeIsLarge(d))){
           return "translate(-15,-10)";
         } else {
             return "";
@@ -150,4 +161,13 @@ $(document).on('ready page:load', function(){
 
     });});
 
+    function browser(){
+        var ua= navigator.userAgent, tem,
+        M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+        if(/trident/i.test(M[1])){
+            tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+            return 'IE '+(tem[1] || '');
+        }
+        return M[1]
+    }
 });

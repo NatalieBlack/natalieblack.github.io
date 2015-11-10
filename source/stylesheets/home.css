@@ -31,3 +31,7 @@ g {
   font-color:black;
   text-anchor: middle;
 }
+
+.stupid-firefox {
+  word-wrap: break-all;
+}

@@ -1,0 +1,33 @@
+html{
+  font: 75% sans-serif;
+}
+
+body {
+  background-color: mintcream;
+}
+
+.void {
+  background-color: mintcream;
+}
+
+.yolk {
+  font-size: 1.75rem;
+  font-family: "Rockwell", "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-color:black;
+}
+
+circle.yolk {
+  fill: #E7E7EF;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+g {
+  font-size: 0.9rem;
+  font-family: "Rockwell", "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-color:black;
+  text-anchor: middle;
+}

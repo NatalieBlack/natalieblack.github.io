@@ -117,8 +117,12 @@ $(document).on('ready page:load', function(){
     }
 
     function translate(d) {
-        if(browser() === 'Chrome' && (topOrBottom(d) || wedgeIsLarge(d))){
-          return "translate(-15,-10)";
+        if(browser() === 'Chrome'){
+           if((topOrBottom(d) || wedgeIsLarge(d))){
+              return "translate(-32,-15)";
+           } else {
+              return "translate(-15,-15)";
+           }
         } else {
             return "";
         }

@@ -16,6 +16,10 @@ body {
   font-color:black;
 }
 
+.yolk:hover {
+  cursor: pointer;
+}
+
 circle.yolk {
   fill: #E7E7EF;
   text-anchor: middle;

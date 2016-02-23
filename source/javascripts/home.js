@@ -119,9 +119,9 @@ $(document).on('ready page:load', function(){
     function translate(d) {
         if(browser() === 'Chrome'){
            if((topOrBottom(d) || wedgeIsLarge(d))){
-              return "translate(-32,-15)";
+              return "translate(-32,-20)";
            } else {
-              return "translate(-15,-15)";
+              return "translate(-5,-12)";
            }
         } else {
             return "";
@@ -130,15 +130,16 @@ $(document).on('ready page:load', function(){
 
     function angle(d) {
         var a = (d.startAngle + d.endAngle) * 90 / Math.PI - 90;
+        var aa = a > 90 ? a - 180 : a;
         if(wedgeIsLarge(d) || topOrBottom(d)){
             return 0;
         } else {
-            return a > 90 ? a - 180 : a;
+            return aa;
         }
     }
 
     function wedgeIsLarge(d){
-      return (d.endAngle - d.startAngle) > 0.3;
+      return (d.endAngle - d.startAngle) > 0.35;
     }
 
     function topOrBottom(d){

@@ -161,15 +161,23 @@ body#rgb_interactive{
   }
 
   header {
+    box-sizing: border-box;
+    height: 50px;
+    padding-top: 15px;
+    background: #333;
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
     li {
       display: inline-block;
     }
     .key {
       font-weight: bold;
-      color: blue;
+      color: #aaa;
     }
     .effect {
-      color: cyan;
+      color: #888;
     }
   }  
 }

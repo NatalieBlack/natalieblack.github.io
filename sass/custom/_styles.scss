@@ -41,14 +41,15 @@ div.other_albums img {
 //**************************************
 //GALLARY
 //**************************************
-$bg-colour: #B1B2BA;
-$centre-bg-colour: #DCDCDE;
+$bg-colour: #fefefe;
+$centre-bg-colour: #eee;
+$border-colour: #dcdcde;
 .portal{
     display: inline-block;
     position: relative;
     padding: 5px;
     margin: 5px 2px;
-    border: 1px solid $bg-colour;
+    border: 1px solid $border-colour;
 }
 
 .portal img {
@@ -125,14 +126,64 @@ $gallery_page_accent: #CCC;
 }
 
 body#gallery_page{
-    background-color: $gallery_page_bg;
+  background-color: $gallery_page_bg;
 }
-//***********************************
-//CIRCLES
-//***********************************
-body#gallery_page_circles{
-    background-color: #F1F1FF;
-    #gallery_page{
-        background-color: #F1F1FF;
+
+body#syn {
+  padding: 10px;
+  background-color: $gallery_page_bg;
+
+  h1 {
+    color: #999;
+  }
+
+  hr {
+    border-top: 1px solid #CCC;
+  }
+
+  .container {
+    margin: 0px auto;
+    width: 85%;
+  }
+
+  .canvases {
+    margin: 0px auto;
+  }
+
+  .syn_canvas {
+    display: inline-block;
+  }
+}
+
+body#rgb_interactive{
+  canvas {
+    margin: auto;
+  }
+
+  header {
+    li {
+      display: inline-block;
     }
+    .key {
+      font-weight: bold;
+      color: blue;
+    }
+    .effect {
+      color: cyan;
+    }
+  }  
+}
+
+body#artoo {
+  footer {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+    a {
+      color: #7f8c8d;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+  }
 }

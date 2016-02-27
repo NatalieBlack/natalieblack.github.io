@@ -111,6 +111,7 @@ module Jekyll
         csv << ['tag','url','posts']
         self.categories.each do |cat|
           cat_url = File.join(self.config['category_dir'], cat.first.to_url)
+          next if cat.last.size < 2;
           s = [cat.last.size, 6].min
           s = [s, 1.3].max
           csv << [cat.first, cat_url, s]

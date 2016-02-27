@@ -1,9 +1,11 @@
 tag,url,posts
-index,blog,3
+blog,blog,3
 gallery,gallery/index.html,3
-music community visualization,music_community_visualization/graph.html,3
 Tumblr, http://iope-orchenstern.tumblr.com,1
 Twitter, http://twitter.com/brain_box,1
 GitHub, http://github.com/NatalieBlack,1
 NaNoWriMo, http://nanowrimo.org/participants/natalievictoria, 1.1
 Last.fm, http://last.fm/user/quippie, 1
+Artoo Bird Xylophone, artoo-bird-xylophone,3
+music community graph,music_community_visualization/graph.html,3
+RGB Factory,rgb-interactive,3

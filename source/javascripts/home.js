@@ -113,11 +113,26 @@ $(document).on('ready page:load', function(){
       .text('Natalie Black');
 
     function gTextTransform(d) {
-       return "translate(" + arc.centroid(d) + ") " + translate(d) + " rotate(" + (angle(d) ) + ")" ;
+      var coords = arc.centroid(d);
+      /*console.log(coords);
+      //coords[0] = coords[0] * 0.9;
+      if(coords[1] > 0) {
+      coords[1] = coords[1] * 0.8;
+      } else {
+        coords[1] = coords[1] * 0.9;
+      }
+      console.log(coords);
+      */
+       return "translate(" + coords + ")" + translate(d) + " rotate(" + (angle(d) ) + ")" ;
     }
 
     function translate(d) {
         if(browser() === 'Chrome'){
+          if(wedgeIsSmall(d)){
+              return "translate(-7,-5)";
+          } else {
+              return "translate(-32,-20)";
+          }
            if((topOrBottom(d) || wedgeIsLarge(d))){
               return "translate(-32,-20)";
            } else {
@@ -131,11 +146,20 @@ $(document).on('ready page:load', function(){
     function angle(d) {
         var a = (d.startAngle + d.endAngle) * 90 / Math.PI - 90;
         var aa = a > 90 ? a - 180 : a;
-        if(wedgeIsLarge(d) || topOrBottom(d)){
+        if(wedgeIsSmall(d)) {
+          return aa;
+        } else {
+          return 0;
+        }
+        /*if(wedgeIsLarge(d) || topOrBottom(d)){
             return 0;
         } else {
             return aa;
-        }
+        }*/
+    }
+
+    function wedgeIsSmall(d){
+      return (d.endAngle - d.startAngle) < 0.2;
     }
 
     function wedgeIsLarge(d){

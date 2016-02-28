@@ -43,6 +43,7 @@ div.other_albums img {
 //**************************************
 $bg-colour: #fefefe;
 $centre-bg-colour: #eee;
+$overlay-text-colour: #aaa;
 $border-colour: #dcdcde;
 .portal{
     display: inline-block;
@@ -78,7 +79,7 @@ $border-colour: #dcdcde;
 }
 .portal:hover .overlay {
     display:block;
-    background-color:$bg-colour;
+    background-color:$overlay-text-colour;
     z-index: 1;
     opacity:0.75;
 }

@@ -72,6 +72,7 @@ $(document).on('ready page:load', function(){
           .attr("class", "yolk")
           .attr("origfill", hovercolour)
           .on("click", function(d) {
+            console.log('hi');
             d3.select(this).transition()
             .duration(transtime)
             .attr("r", getCircleSize(d3.select(this).attr("r")));
@@ -86,6 +87,26 @@ $(document).on('ready page:load', function(){
               .duration(transtime)
               .style("fill", d3.select(this).attr('origfill'));
               });
+
+        svg.append("text")
+        .attr("class", "yolk")
+        .text('Natalie Black')
+        .on("click", function(d) {
+          console.log('hi');
+          d3.select('circle').transition()
+          .duration(transtime)
+          .attr("r", getCircleSize(d3.select('circle').attr("r")));
+          })
+        .on("mouseover", function(d) {
+                d3.select('circle').transition()
+                .duration(transtime)
+                .style("fill", '#C2C2D6');
+                })
+        .on("mouseout", function(d) {
+            d3.select('circle').transition()
+            .duration(transtime)
+            .style("fill", d3.select('circle').attr('origfill'));
+            });
 
       g.append("path")
           .attr("d", arc)
@@ -108,9 +129,6 @@ $(document).on('ready page:load', function(){
       }
 
 
-      svg.append("text")
-      .attr("class", "yolk")
-      .text('Natalie Black');
 
     function gTextTransform(d) {
       var coords = arc.centroid(d);
@@ -131,7 +149,7 @@ $(document).on('ready page:load', function(){
           if(wedgeIsSmall(d)){
               return "translate(-7,-5)";
           } else {
-              return "translate(-32,-20)";
+              return "translate(-32,-30)";
           }
            if((topOrBottom(d) || wedgeIsLarge(d))){
               return "translate(-32,-20)";

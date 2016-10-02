@@ -1,9 +1,11 @@
 html{
-  font: 14px sans-serif;
+  font-size: 14px;
 }
 
 body {
   background-color: mintcream;
+  color: #444;
+  font-family: "Glegoo", "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 }
 
 .void {
@@ -12,8 +14,7 @@ body {
 
 .yolk {
   font-size: 1.75rem;
-  font-family: "Rockwell", "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-  font-color:black;
+  color: #444;
 }
 
 .yolk:hover {
@@ -30,9 +31,7 @@ circle.yolk {
 }
 
 g {
-  font-size: 1rem;
-  font-family: "Rockwell", "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-  font-color:black;
+  font-size: 0.75rem;
   text-anchor: middle;
 }
 

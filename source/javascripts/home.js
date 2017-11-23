@@ -2,8 +2,8 @@ $(document).on('ready page:load', function(){
 
 
     var w = window;
-    var width = w.innerWidth * 0.96,
-        height = w.innerHeight * 0.96,
+    var width = w.innerWidth * 0.97,
+        height = w.innerHeight * 0.97,
         radius = Math.min(width, height) / 2;
 
     var transtime = 300;
@@ -21,7 +21,7 @@ $(document).on('ready page:load', function(){
 
     var pie = d3.layout.pie()
         .sort(null)
-        .value(function(d) { return d.posts * 1000000; });
+        .value(function(d) { return Math.min(5,d.posts); });
 
     var svg = d3.select("body").append("svg")
         .attr("width", width)
@@ -31,12 +31,17 @@ $(document).on('ready page:load', function(){
         .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
     d3.csv("data/links.csv", function(error, data1) {
-    d3.csv("data/category_list.csv", function(error2, data2) {
-      var data = data1.concat(data2);
-
-      data.forEach(function(d) {
+      data1.forEach(function(d) {
         d.posts = +d.posts;
       });
+    d3.csv("data/category_list.csv", function(error2, data2) {
+
+      data2.forEach(function(d) {
+        d.posts = +d.posts;
+        d.posts = d.posts * 0.7;
+      });
+
+      var data = data1.concat(data2);
 
 
       var g = svg.selectAll(".arc")
@@ -149,7 +154,7 @@ $(document).on('ready page:load', function(){
           if(wedgeIsSmall(d)){
               return "translate(-7,-5)";
           } else {
-              return "translate(-32,-30)";
+              return "translate(-18,-21)";
           }
            if((topOrBottom(d) || wedgeIsLarge(d))){
               return "translate(-32,-20)";

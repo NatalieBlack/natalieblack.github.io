@@ -115,24 +115,26 @@ body#syn {
   body#syn .experience {
     margin-top: 40px; }
 
-body#rgb_interactive canvas {
-  margin: auto; }
-
-body#rgb_interactive header {
-  box-sizing: border-box;
-  height: 50px;
-  padding-top: 15px;
-  background: #333; }
-  body#rgb_interactive header ul {
-    display: flex;
-    justify-content: space-around; }
-  body#rgb_interactive header li {
-    display: inline-block; }
-  body#rgb_interactive header .key {
-    font-weight: bold;
-    color: #aaa; }
-  body#rgb_interactive header .effect {
-    color: #888; }
+body#rgb_interactive {
+  margin: 0; }
+  body#rgb_interactive canvas {
+    margin: auto; }
+  body#rgb_interactive header {
+    box-sizing: border-box;
+    height: 50px;
+    padding-top: 15px;
+    background: #333; }
+    body#rgb_interactive header ul {
+      display: flex;
+      justify-content: space-around;
+      margin: 0; }
+    body#rgb_interactive header li {
+      display: inline-block; }
+    body#rgb_interactive header .key {
+      font-weight: bold;
+      color: #aaa; }
+    body#rgb_interactive header .effect {
+      color: #888; }
 
 body#artoo footer {
   position: fixed;

@@ -161,6 +161,9 @@ body#syn {
 }
 
 body#rgb_interactive{
+
+  margin: 0;
+
   canvas {
     margin: auto;
   }
@@ -173,6 +176,7 @@ body#rgb_interactive{
     ul {
       display: flex;
       justify-content: space-around;
+      margin: 0;
     }
     li {
       display: inline-block;

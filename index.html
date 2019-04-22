@@ -64,9 +64,7 @@
                 .append("g")
                 .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-            d3.csv("data/links.csv", function(error, data1) {
-            d3.csv("data/category_list.csv", function(error2, data2) {
-              var data = data1.concat(data2);
+            d3.csv("data/links.csv", function(error, data) {
 
               data.forEach(function(d) {
                 d.posts = +d.posts;
@@ -181,7 +179,7 @@
                  .style("fill", d3.select(this).select('path').attr('origfill'));
             }
 
-            });});
+            });
 
         </script>
     </body>

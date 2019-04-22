@@ -1,0 +1,24 @@
+{
+  "name": "natalieblack.github.io",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalieBlack/natalieblack.github.io.git"
+  },
+  "author": "natalieblack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalieBlack/natalieblack.github.io/issues"
+  },
+  "homepage": "https://github.com/NatalieBlack/natalieblack.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-haml": "^1.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

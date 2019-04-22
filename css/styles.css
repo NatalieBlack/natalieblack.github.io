@@ -1,0 +1,155 @@
+img.nanowrimo {
+  height: 62px;
+  padding: 2px; }
+
+.navbar ul li a.nano {
+  border: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; }
+
+.album_img {
+  height: 200px;
+  border: 6px solid rgba(0, 39, 59, 0.35);
+  float: left;
+  margin-right: 8px; }
+
+div.album {
+  clear: both;
+  overflow: auto;
+  margin: 8px;
+  border: 1px solid rgba(0, 39, 59, 0.35); }
+
+div.other_albums img {
+  height: 225px;
+  margin: 1px;
+  border: 1px solid rgba(0, 39, 59, 0.35); }
+
+.diptychPanel {
+  display: inline-block; }
+
+.diptych p {
+  display: inline-block; }
+
+.portal {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  margin: 5px 2px;
+  border: 1px solid #dcdcde; }
+
+.portal img {
+  width: 250px;
+  height: 250px;
+  margin: none;
+  padding: none; }
+
+.portal .overlay {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin: 5px;
+  top: 0px;
+  left: 0px;
+  display: none;
+  text-align: center;
+  color: white; }
+  .portal .overlay p {
+    position: relative;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.portal:hover .overlay {
+  display: block;
+  background-color: #aaa;
+  z-index: 1;
+  opacity: 0.75; }
+
+body#gallery {
+  background: #fefefe; }
+
+div.gallery {
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: #eee;
+  width: 70%;
+  height: 90%; }
+
+#gallery_page {
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  height: 90%;
+  background-color: whitesmoke; }
+  #gallery_page ul.slick-dots {
+    width: 100%;
+    margin: 0px auto;
+    bottom: auto;
+    position: relative; }
+  #gallery_page .slick-prev:before, #gallery_page .slick-next:before {
+    color: #CCC; }
+  #gallery_page canvas {
+    padding: 20px;
+    border: 1px solid #CCC;
+    margin: 0px auto;
+    text-align: center; }
+
+body#gallery_page {
+  background-color: whitesmoke; }
+
+body#syn {
+  padding: 10px;
+  background-color: whitesmoke; }
+  body#syn h1 {
+    color: #999; }
+  body#syn hr {
+    border-top: 1px solid #CCC; }
+  body#syn .container {
+    margin: 0px auto;
+    width: 85%; }
+  body#syn .canvases {
+    margin: 0px auto; }
+  body#syn .syn_canvas {
+    display: inline-block; }
+  body#syn .experience {
+    margin-top: 40px; }
+
+body#rgb_interactive canvas {
+  margin: auto; }
+
+body#rgb_interactive header {
+  box-sizing: border-box;
+  height: 50px;
+  padding-top: 15px;
+  background: #333; }
+  body#rgb_interactive header ul {
+    display: flex;
+    justify-content: space-around; }
+  body#rgb_interactive header li {
+    display: inline-block; }
+  body#rgb_interactive header .key {
+    font-weight: bold;
+    color: #aaa; }
+  body#rgb_interactive header .effect {
+    color: #888; }
+
+body#artoo footer {
+  position: fixed;
+  bottom: 5px;
+  right: 5px; }
+  body#artoo footer a {
+    color: #7f8c8d;
+    font-weight: normal;
+    text-decoration: underline; }
+
+#gahp {
+  background-color: #333; }
+  #gahp canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 5px solid #111;
+    margin: auto; }

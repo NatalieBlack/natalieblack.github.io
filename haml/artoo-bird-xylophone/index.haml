@@ -1,0 +1,19 @@
+---
+layout: syn 
+body_id: "artoo"
+title: "Artoo Bird Xylophone"
+date: 2016-02-22 20:10
+sharing: true
+---
+!!!
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.22/p5.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.22/addons/p5.dom.min.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/artoo.js"></script>
+
+%audio{ autoplay: true, loop: true }
+  Your browser does not support the audio element.
+  %source{ src:"{{ root_url }}/data/artoo.mp3", type:"audio/mpeg" }
+%footer
+  sounds by
+  %a{href: 'https://soundcloud.com/lachlanfletcher'}
+    Lachlan Fletcher

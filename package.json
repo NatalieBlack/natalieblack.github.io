@@ -18,7 +18,6 @@
   "homepage": "https://github.com/NatalieBlack/natalieblack.github.io#readme",
   "devDependencies": {
     "gulp": "^4.0.1",
-    "gulp-haml": "^1.0.1",
     "gulp-sass": "^4.0.2"
   }
 }

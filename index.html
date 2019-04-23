@@ -1,41 +1,12 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-    <style>
-
-    body {
-      font: 10px sans-serif;
-      background-color: mintcream;
-    }
-    
-    .void {
-      background-color: mintcream;
-    }
-
-    .yolk {
-      font-size: 20px;
-      font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-      font-color:black;
-    }
-
-    circle.yolk {
-      fill: #E7E7EF;
-    }
-
-    .arc path {
-      stroke: #fff;
-    }
-
-    g text {
-      font-size: 8px;
-      font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-      font-color:black;
-    }
-
-    </style>
-    <body>
-        <script src="/javascripts/libs/jquery.min.js"></script>
-        <script src="/javascripts/libs/d3.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="/javascripts/libs/jquery.min.js"></script>
+    <script src="/javascripts/libs/d3.min.js"></script>
+  </head>
+    <body id='home'>
         <script>
 
             var w = window;
@@ -47,7 +18,7 @@
             var hovercolour = '#E7E7EF';
 
             var color = d3.scale.ordinal()
-                .range(["steelblue", "lightsteelblue",  "turquoise", "paleturquoise", "darkturquoise", "tomato", "lightsalmon","salmon", "darksalmon", "coral", "aliceblue", "lightblue", "powderblue", "lightcyan", "aquamarine", "mediumturquoise", "darkturquoise", "mediumaquamarine", "lightseagreen", "darkcyan", "cadetblue", "darkslateblue", "lavender","aliceblue", "lightblue", "powderblue", "lightcyan", "paleturquoise", "aquamarine", "turquoise", "mediumturquoise", "darkturquoise", "mediumaquamarine", "lightseagreen", "darkcyan", "cadetblue", "lavender", "darkslateblue", 'azure' ]);
+                .range(["lightsteelblue",  "turquoise", "paleturquoise", "darkturquoise", "tomato", "lightsalmon","salmon", "darksalmon", "coral", "aliceblue", "lightblue", "powderblue", "lightcyan", "aquamarine", "mediumturquoise", "darkturquoise", "mediumaquamarine", "lightseagreen", "darkcyan", "cadetblue", "darkslateblue", "lavender","aliceblue", "lightblue", "powderblue", "lightcyan", "paleturquoise", "aquamarine", "turquoise", "mediumturquoise", "darkturquoise", "mediumaquamarine", "lightseagreen", "darkcyan", "cadetblue", "lavender", "darkslateblue", 'azure' ]);
 
             var arc = d3.svg.arc()
                 .outerRadius(radius - (radius * 0.02))

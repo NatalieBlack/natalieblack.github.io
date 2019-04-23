@@ -217,3 +217,37 @@ body#artoo {
     margin: auto;
   }
 }
+
+body#home {
+  font: 10px sans-serif;
+  background-color: mintcream;
+}
+
+#home {
+
+    .void {
+      background-color: mintcream;
+    }
+
+    .yolk {
+      font-size: 20px;
+      font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+      font-color:black;
+    }
+
+    circle.yolk {
+      fill: #E7E7EF;
+    }
+
+    .arc path {
+      stroke: #fff;
+    }
+
+    g text {
+      font-size: 8px;
+      font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+      font-color:black;
+    }
+
+    
+}

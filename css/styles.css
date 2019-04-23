@@ -155,3 +155,26 @@ body#artoo footer {
     right: 0;
     border: 5px solid #111;
     margin: auto; }
+
+body#home {
+  font: 10px sans-serif;
+  background-color: mintcream; }
+
+#home .void {
+  background-color: mintcream; }
+
+#home .yolk {
+  font-size: 20px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-color: black; }
+
+#home circle.yolk {
+  fill: #E7E7EF; }
+
+#home .arc path {
+  stroke: #fff; }
+
+#home g text {
+  font-size: 8px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-color: black; }

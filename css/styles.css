@@ -178,3 +178,23 @@ body#home {
   font-size: 8px;
   font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-color: black; }
+
+#music_vis path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px; }
+
+#music_vis circle.original {
+  fill: mediumaquamarine; }
+
+#music_vis text.original {
+  fill: mediumaquamarine;
+  font: 10px sans-serif;
+  pointer-events: none; }
+
+#music_vis text.mouseover {
+  fill: tomato;
+  font: 24px sans-serif; }
+
+#music_vis circle.mouseover {
+  fill: tomato; }

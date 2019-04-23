@@ -251,3 +251,32 @@ body#home {
 
     
 }
+
+#music_vis {
+
+  path.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+  }
+
+  circle.original {
+    fill: mediumaquamarine;
+  }
+
+  text.original {
+    fill: mediumaquamarine;
+    font: 10px sans-serif;
+    pointer-events: none;
+  }
+
+  text.mouseover {
+      fill: tomato;
+      font: 24px sans-serif;
+  }
+
+  circle.mouseover {
+      fill: tomato;
+  }
+    
+}

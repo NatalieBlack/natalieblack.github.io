@@ -241,6 +241,10 @@ body#home {
 #home li.gallery {
   min-height: 24vh; }
 
+@media screen and (max-width: 500px) {
+  #home .home-main-menu a, #home .home-main-menu a:visited, #home .home-main-menu a:active {
+    font-size: 6em; } }
+
 #music_vis path.link {
   fill: none;
   stroke: #666;

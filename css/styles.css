@@ -211,7 +211,7 @@ body#home {
 
 #home .home-main-menu li {
   list-style-type: none;
-  min-height: 12.66vh;
+  min-height: 10.85vh;
   display: flex;
   align-items: stretch; }
 
@@ -219,24 +219,27 @@ body#home {
   background: tomato; }
 
 #home .home-main-menu li:nth-child(2) {
-  background: lightsalmon; }
+  background: darksalmon; }
 
 #home .home-main-menu li:nth-child(3) {
   background: salmon; }
 
 #home .home-main-menu li:nth-child(4) {
-  background: lightsteelblue; }
+  background: lightsalmon; }
 
 #home .home-main-menu li:nth-child(5) {
-  background: turquoise; }
+  background: lightsteelblue; }
 
 #home .home-main-menu li:nth-child(6) {
-  background: paleturquoise; }
+  background: turquoise; }
 
 #home .home-main-menu li:nth-child(7) {
-  background: darkturquoise; }
+  background: paleturquoise; }
 
 #home .home-main-menu li:nth-child(8) {
+  background: darkturquoise; }
+
+#home .home-main-menu li:nth-child(9) {
   background: mediumaquamarine; }
 
 #home li.gallery {

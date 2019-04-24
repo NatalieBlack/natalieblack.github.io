@@ -241,6 +241,9 @@ body#home {
 #home li.gallery {
   min-height: 24vh; }
 
+#home .artoo i {
+  padding-left: 0.1em; }
+
 #music_vis path.link {
   fill: none;
   stroke: #666;

@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%
+}
 // Add your custom styling here.
 img.nanowrimo {
     height: 62px;
@@ -221,6 +227,8 @@ body#artoo {
 body#home {
   font: 10px sans-serif;
   background-color: mintcream;
+  margin: 0;
+  min-height: 100%;
 }
 
 #home {
@@ -247,6 +255,74 @@ body#home {
       font-size: 8px;
       font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
       font-color:black;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .projects-list-container {
+      padding-left: 0;
+    }
+
+    .home-main-menu a, .home-main-menu a:visited, .home-main-menu a:active {
+      text-decoration: none;
+      color: mintcream;
+      font-size: 3em;
+      padding-left: 1em;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding-left: 1em;
+    }
+
+    .home-main-menu a:hover {
+      color: steelblue;
+      background-color: mintcream;
+    }
+
+    .home-main-menu li {
+      list-style-type: none;
+      min-height: 12.66vh;
+      display: flex;
+      align-items: stretch;
+    }
+
+    .home-main-menu  li:nth-child(1) {
+      background: tomato;
+    }
+
+    .home-main-menu  li:nth-child(2) {
+      background: lightsalmon;
+    }
+
+    .home-main-menu  li:nth-child(3) {
+      background: salmon;
+    }
+
+    .home-main-menu  li:nth-child(4) {
+      background: lightsteelblue;
+    }
+    
+    .home-main-menu li:nth-child(5) {
+      background: turquoise;
+    }
+    
+    .home-main-menu  li:nth-child(6) {
+      background: paleturquoise;
+    }
+
+    .home-main-menu li:nth-child(7) {
+      background: darkturquoise;
+    }
+
+    .home-main-menu li:nth-child(8) {
+      background: mediumaquamarine;
+    }
+
+    li.gallery {
+      min-height: 24vh; 
     }
 
     

@@ -270,11 +270,12 @@ body#home {
       text-decoration: none;
       color: mintcream;
       font-size: 3em;
-      padding-left: 1em;
       display: flex;
       align-items: center;
       width: 100%;
-      padding-left: 1em;
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
+      padding-left: 0.5em;
     }
 
     .home-main-menu a:hover {
@@ -327,6 +328,7 @@ body#home {
 
     .artoo i {
       padding-left: 0.1em;
+      padding-right: 0.25em;
     }
 
 

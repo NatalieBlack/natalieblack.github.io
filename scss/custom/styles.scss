@@ -92,10 +92,7 @@ $border-colour: #dcdcde;
 
 body#gallery {
     background: $bg-colour;
-
-    * {
-      box-sizing: border-box;
-    }
+    box-sizing: border-box;
 
     nav {
       position: absolute;
@@ -109,12 +106,14 @@ body#gallery {
 }
 
 div.gallery {
+    box-sizing: border-box;
     text-align: center;
     margin: 0px auto;
     padding: 10px;
     background-color: $centre-bg-colour;
     width: 70%;
     height: 90%;
+    box-sizing: border-box;
 }
 
 body#gallery {
@@ -125,7 +124,6 @@ body#gallery {
 
     .gallery {
       width: 100%;
-
     }
   }
 }

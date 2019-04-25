@@ -92,6 +92,20 @@ $border-colour: #dcdcde;
 
 body#gallery {
     background: $bg-colour;
+
+    * {
+      box-sizing: border-box;
+    }
+
+    nav {
+      position: absolute;
+      top: 0;
+      left: 10px;
+    }
+
+    nav a {
+      color: #eee;
+    }
 }
 
 div.gallery {
@@ -101,6 +115,19 @@ div.gallery {
     background-color: $centre-bg-colour;
     width: 70%;
     height: 90%;
+}
+
+body#gallery {
+  @media screen and (max-width: 500px) {
+    & {
+      padding: 0;
+    }
+
+    .gallery {
+      width: 100%;
+
+    }
+  }
 }
 
 //**************************************

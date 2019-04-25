@@ -73,6 +73,14 @@ div.other_albums img {
 
 body#gallery {
   background: #fefefe; }
+  body#gallery * {
+    box-sizing: border-box; }
+  body#gallery nav {
+    position: absolute;
+    top: 0;
+    left: 10px; }
+  body#gallery nav a {
+    color: #eee; }
 
 div.gallery {
   text-align: center;
@@ -81,6 +89,12 @@ div.gallery {
   background-color: #eee;
   width: 70%;
   height: 90%; }
+
+@media screen and (max-width: 500px) {
+  body#gallery {
+    padding: 0; }
+  body#gallery .gallery {
+    width: 100%; } }
 
 #gallery_page {
   text-align: center;

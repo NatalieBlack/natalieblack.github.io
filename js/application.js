@@ -2,17 +2,19 @@
 
 $(window).on('load', function() {
     // Move some elements around when viewing from a "mobile" container
+    var galleryPage = document.querySelector('body#gallery_page')
     updateContainer();
     $(window).resize(function() {
         updateContainer();
-        showOrHideArt();
+        if(galleryPage) {
+          showOrHideArt();
+        }
     });
     // Disable link click not scroll top
     $("a[href='#']").click(function() {
         return false
     });
 
-    var galleryPage = document.querySelector('body#gallery_page')
     if(galleryPage) {
       var canvas = document.querySelector('div#gallery_page canvas');
       var canvasDiv = document.querySelector('div#gallery_page');

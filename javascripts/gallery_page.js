@@ -1,4 +1,4 @@
-(document).ready(function(){
+$(document).ready(function(){
     var canvas = document.querySelector('div.gallery_page canvas');
     var canvasDiv = document.querySelector('div.gallery_page');
     var canvasWidth = canvas.offsetWidth;

@@ -14,7 +14,7 @@ $(window).on('load', function() {
 
     var galleryPage = document.querySelector('body#gallery_page')
     if(galleryPage) {
-      var canvas = document.querySelector('div.gallery_page canvas');
+      var canvas = document.querySelector('canvas');
       var canvasDiv = document.querySelector('div.gallery_page');
       var canvasWidth = canvas.offsetWidth;
       var p = document.createElement('p');

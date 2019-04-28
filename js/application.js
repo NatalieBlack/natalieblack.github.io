@@ -5,6 +5,7 @@ $(document).ready(function() {
     updateContainer();
     $(window).resize(function() {
         updateContainer();
+        showOrHideArt();
     });
     // Disable link click not scroll top
     $("a[href='#']").click(function() {
@@ -22,10 +23,6 @@ $(document).ready(function() {
       p.style.display = 'none';
       p.innerText = "This piece is too large to view on your device";
       showOrHideArt(); 
-
-      window.onresize = function(e) {
-        showOrHideArt();
-      };
 
       function showOrHideArt() {
           if(window.innerWidth <= canvasWidth){

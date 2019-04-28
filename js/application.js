@@ -1,6 +1,6 @@
 // Some general UI pack related JS
 
-$(document).ready(function() {
+$(window).on('load', function() {
     // Move some elements around when viewing from a "mobile" container
     updateContainer();
     $(window).resize(function() {
